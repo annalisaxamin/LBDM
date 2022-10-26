@@ -1,7 +1,7 @@
 # LBDM
 Project for the course of Laboratory of Biological Data Mining held by Enrico Blanzieri and Toma Tebaldi (A.Y. 2022-2023).
 
-Topic: Small Nucleolar RNAs and ribosome regulation in human
+Topic: Small Nucleolar RNAs and ribosome regulation in human diseases
 
 Project developed by:
 - Lorenzo Bocchi [@bocchilorenzo](https://github.com/bocchilorenzo)
