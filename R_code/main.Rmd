@@ -1,0 +1,26 @@
+First we load the necessary libraries. After installing CAGEr there could be an issue with the library 'stringi'. Simply install it manually.
+```{r}
+library(BiocManager)
+BiocManager::install("CAGEr") # probabilmente fallirà a installare stringi, dovrete installarlo a mano (riavviando prima R)
+
+library(CAGEr)
+source("CAGEr/R/ImportMethods.R")
+```
+
+Now we load the data for FANOTM5 for the human samples:
+```{r}
+data(FANTOM5humanSamples)
+head(FANTOM5humanSamples)
+```
+
+We select only those with "breast" in the description:
+```{r}
+breastSamples <- FANTOM5humanSamples[grep("breast", FANTOM5humanSamples[,"description"]),]
+breastSamples
+```
+
+We can download manually the file, extract it, rename it to remove % characters and load it here:
+```{r}
+breastCAGEset <- import.bedCTSS('breast_carcinoma_cell_line_MCF7.CNhs11943.10482-107A5.hg19.ctss.bed')
+```
+

@@ -1,0 +1,89 @@
+Package: CAGEr
+Title: Analysis of CAGE (Cap Analysis of Gene Expression) sequencing data for precise mapping of transcription start sites and promoterome mining
+Version: 2.5.0
+Date: 2022-04-12
+Authors@R:
+  c( person("Vanja",   "Haberle",   email = "vanja.haberle@gmail.com",       role = "aut"),
+     person("Charles", "Plessy",    email = "charles.plessy@oist.jp",        role = "cre"),
+     person("Damir",   "Baranasic", email = "damir.baranasic@lms.mrc.ac.uk", role = "ctb"),
+     person("Sarvesh", "Nikumbh",   email = "s.nikumbh@lms.mrc.ac.uk",       role = "ctb")
+  )
+Imports:
+    BiocGenerics,
+    BiocParallel,
+    BSgenome,
+    data.table,
+    DelayedArray,
+    DelayedMatrixStats,
+    formula.tools,
+    GenomeInfoDb,
+    GenomicAlignments,
+    GenomicRanges (>= 1.37.16),
+    ggplot2 (>= 2.2.0),
+    gtools,
+    IRanges (>= 2.18.0),
+    KernSmooth,
+    memoise,
+    plyr,
+    Rsamtools,
+    reshape2,
+    rtracklayer,
+    S4Vectors (>= 0.27.5),
+    som,
+    stringdist,
+    stringi,
+    SummarizedExperiment,
+    utils,
+    vegan,
+    VGAM
+Depends:
+    methods,
+    MultiAssayExperiment,
+    R (>= 4.1.0)
+Suggests:
+    BSgenome.Drerio.UCSC.danRer7,
+    DESeq2,
+    FANTOM3and4CAGE,
+    BiocStyle,
+    knitr,
+    rmarkdown
+Description: Preprocessing of CAGE sequencing data, identification and
+ normalization of transcription start sites and downstream analysis of
+ transcription start sites clusters (promoters).
+License: GPL-3
+biocViews: Preprocessing, Sequencing, Normalization, FunctionalGenomics, Transcription, GeneExpression, Clustering, Visualization
+Collate: 
+    'CTSS.R'
+    'CAGEexp.R'
+    'AllClasses.R'
+    'CAGEr.R'
+    'AggregationFunctions.R'
+    'Multicore.R'
+    'ClusteringFunctions.R'
+    'ClusteringMethods.R'
+    'Annotations.R'
+    'AggregationMethods.R'
+    'CorrelationMethods.R'
+    'CumulativeDistributionFunctions.R'
+    'GetMethods.R'
+    'CumulativeDistributionMethods.R'
+    'ExportFunctions.R'
+    'ExportMethods.R'
+    'ExpressionProfilingMethods.R'
+    'ImportFunctions.R'
+    'SetMethods.R'
+    'ImportMethods.R'
+    'MergingMethods.R'
+    'NormalizationFunctions.R'
+    'NormalizationMethods.R'
+    'QCmethods.R'
+    'QuantileWidthMethods.R'
+    'Richness.R'
+    'ShiftingFunctions.R'
+    'ShiftingMethods.R'
+    'StrandInvaders.R'
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
