@@ -1,0 +1,1328 @@
+id,gene,n1,n2,n3,n4,descrizione1,descrizione2
+0,p3@CYP17A1,1586,2593,,CYP17A1,cytochrome P450 family 17 subfamily A member 1,gene with protein product
+1,p2@CYP17A1,1586,2593,,CYP17A1,cytochrome P450 family 17 subfamily A member 1,gene with protein product
+2,p1@CYP17A1,1586,2593,,CYP17A1,cytochrome P450 family 17 subfamily A member 1,gene with protein product
+3,p5@CYP17A1,1586,2593,"P05093,Q1HB44",CYP17A1,cytochrome P450 family 17 subfamily A member 1,gene with protein product
+4,p4@CYP17A1,1586,2593,"P05093,Q1HB44",CYP17A1,cytochrome P450 family 17 subfamily A member 1,gene with protein product
+5,p6@CYP17A1,1586,2593,"P05093,Q1HB44",CYP17A1,cytochrome P450 family 17 subfamily A member 1,gene with protein product
+6,p9@FGFR2,2263,3689,,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+7,p13@FGFR2,2263,3689,,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+8,p6@FGFR2,2263,3689,,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+9,p2@FGFR2,2263,3689,,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+10,p1@FGFR2,2263,3689,"P21802,E7EVR7",FGFR2,fibroblast growth factor receptor 2,gene with protein product
+11,p7@FGFR2,2263,3689,P21802,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+12,p4@FGFR2,2263,3689,P21802,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+13,p3@FGFR2,2263,3689,P21802,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+14,p5@FGFR2,2263,3689,P21802,FGFR2,fibroblast growth factor receptor 2,gene with protein product
+15,p3@MKI67,4288,7107,,MKI67,marker of proliferation Ki-67,gene with protein product
+16,p8@MKI67,4288,7107,,MKI67,marker of proliferation Ki-67,gene with protein product
+17,p4@MKI67,4288,7107,P46013,MKI67,marker of proliferation Ki-67,gene with protein product
+18,p1@MKI67,4288,7107,P46013,MKI67,marker of proliferation Ki-67,gene with protein product
+19,p2@MKI67,4288,7107,P46013,MKI67,marker of proliferation Ki-67,gene with protein product
+20,p7@MKI67,4288,7107,P46013,MKI67,marker of proliferation Ki-67,gene with protein product
+21,p9@MKI67,4288,7107,P46013,MKI67,marker of proliferation Ki-67,gene with protein product
+22,"p2@COMMD3,p4@BMI1","100532731,648,23412","1066,23332",Q5T8Z1,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+23,"p3@COMMD3,p9@BMI1","100532731,648,23412","1066,23332",Q5T8Z1,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+24,"p14@BMI1,p4@COMMD3","100532731,648,23412","1066,23332",Q5T8Z1,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+25,p1@BMI1,"100532731,648",1066,E9PC92,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+26,p16@BMI1,648,1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+27,p2@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+28,p7@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+29,p6@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+30,p11@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+31,p15@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+32,p8@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+33,p19@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+34,p5@BMI1,"100532731,648",1066,P35226,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+35,p18@BMI1,"100532731,648",1066,Q5T8Z4,BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+36,p3@BMI1,"100532731,648",1066,"Q5T8Z6,Q5T8Z5",BMI1,"BMI1 proto-oncogene, polycomb ring finger",gene with protein product
+37,p5@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+38,p3@ZEB1,6935,11642,G3V1R3,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+39,p6@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+40,p1@ZEB1,6935,11642,"F6TDF5,Q5VZ84,F5H8J0,F5H4I8,F5H838",ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+41,p20@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+42,p21@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+43,p22@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+44,p2@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+45,p19@ZEB1,6935,11642,,ZEB1,zinc finger E-box binding homeobox 1,gene with protein product
+46,p5@ITGB1,3688,6153,,ITGB1,integrin subunit beta 1,gene with protein product
+47,p9@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+48,p6@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+49,p12@ITGB1,3688,6153,,ITGB1,integrin subunit beta 1,gene with protein product
+50,p7@ITGB1,3688,6153,,ITGB1,integrin subunit beta 1,gene with protein product
+51,p15@ITGB1,3688,6153,"C9JJP8,P05556",ITGB1,integrin subunit beta 1,gene with protein product
+52,p16@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+53,p4@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+54,p11@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+55,p8@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+56,p2@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+57,p1@ITGB1,3688,6153,"P05556,Q5T3E4,Q5T3E5,C9JPK5,E7EUI6",ITGB1,integrin subunit beta 1,gene with protein product
+58,p3@ITGB1,3688,6153,P05556,ITGB1,integrin subunit beta 1,gene with protein product
+59,p14@ITGB1,3688,6153,E9PLR6,ITGB1,integrin subunit beta 1,gene with protein product
+60,p1@CXCL12,6387,10672,P48061,CXCL12,C-X-C motif chemokine ligand 12,gene with protein product
+61,p1@SIRT1,23411,14929,Q96EB6,SIRT1,sirtuin 1,gene with protein product
+62,p2@SIRT1,23411,14929,Q96EB6,SIRT1,sirtuin 1,gene with protein product
+63,p4@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+64,p6@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+65,p28@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+66,p15@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+67,p27@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+68,p25@PLAU,5328,9052,"E7ET40,P00749,Q59GZ8",PLAU,"plasminogen activator, urokinase",gene with protein product
+69,p1@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+70,p2@PLAU,5328,9052,Q59GZ8,PLAU,"plasminogen activator, urokinase",gene with protein product
+71,p5@PLAU,5328,9052,Q59GZ8,PLAU,"plasminogen activator, urokinase",gene with protein product
+72,p11@PLAU,5328,9052,Q59GZ8,PLAU,"plasminogen activator, urokinase",gene with protein product
+73,p7@PLAU,5328,9052,,PLAU,"plasminogen activator, urokinase",gene with protein product
+74,p3@GATA3,2625,4172,,GATA3,GATA binding protein 3,gene with protein product
+75,p1@GATA3,2625,4172,,GATA3,GATA binding protein 3,gene with protein product
+76,p2@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+77,p13@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+78,p10@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+79,p6@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+80,p4@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+81,p15@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+82,p16@GATA3,2625,4172,P23771,GATA3,GATA binding protein 3,gene with protein product
+83,p7@GATA3,2625,4172,,GATA3,GATA binding protein 3,gene with protein product
+84,p20@GATA3,2625,4172,,GATA3,GATA binding protein 3,gene with protein product
+85,p5@GATA3,2625,4172,,GATA3,GATA binding protein 3,gene with protein product
+86,p5@PTEN,5728,9588,"F6KD01,P60484",PTEN,phosphatase and tensin homolog,gene with protein product
+87,p6@PTEN,5728,9588,"F6KD01,P60484",PTEN,phosphatase and tensin homolog,gene with protein product
+88,p3@PTEN,5728,9588,"F6KD01,P60484",PTEN,phosphatase and tensin homolog,gene with protein product
+89,p1@PTEN,5728,9588,"F6KD01,P60484",PTEN,phosphatase and tensin homolog,gene with protein product
+90,p4@PTEN,5728,9588,,PTEN,phosphatase and tensin homolog,gene with protein product
+91,p2@PTEN,5728,9588,,PTEN,phosphatase and tensin homolog,gene with protein product
+92,p9@PGR,5241,8910,A7LQ08,PGR,progesterone receptor,gene with protein product
+93,p10@PGR,5241,8910,Q6TZ08,PGR,progesterone receptor,gene with protein product
+94,p11@PGR,5241,8910,P06401,PGR,progesterone receptor,gene with protein product
+95,p7@PGR,5241,8910,P06401,PGR,progesterone receptor,gene with protein product
+96,p12@PGR,5241,8910,P06401,PGR,progesterone receptor,gene with protein product
+97,p13@PGR,5241,8910,P06401,PGR,progesterone receptor,gene with protein product
+98,p2@PGR,5241,8910,P06401,PGR,progesterone receptor,gene with protein product
+99,p4@PGR,5241,8910,"Q8TDS3,Q8NG45,Q8NG44,Q8NG42",PGR,progesterone receptor,gene with protein product
+100,p6@PGR,5241,8910,"Q8TDS3,Q8NG45,Q8NG44,Q8NG42",PGR,progesterone receptor,gene with protein product
+101,p14@PGR,5241,8910,B4E3T0,PGR,progesterone receptor,gene with protein product
+102,p5@PGR,5241,8910,B4E3T0,PGR,progesterone receptor,gene with protein product
+103,p15@PGR,5241,8910,B4E3T0,PGR,progesterone receptor,gene with protein product
+104,p3@PGR,5241,8910,"F5GXE8,P06401,Q8TDS3",PGR,progesterone receptor,gene with protein product
+105,p1@PGR,5241,8910,"F5GXE8,P06401,Q8TDS3",PGR,progesterone receptor,gene with protein product
+106,p15@YAP1,10413,16262,"E9PRV2,E3WEB6,P46937,Q86T74",YAP1,Yes associated protein 1,gene with protein product
+107,p8@YAP1,10413,16262,"E9PRV2,E3WEB6,P46937,Q86T74",YAP1,Yes associated protein 1,gene with protein product
+108,p4@YAP1,10413,16262,"E9PRV2,E3WEB6,P46937,Q86T74",YAP1,Yes associated protein 1,gene with protein product
+109,p2@YAP1,10413,16262,"E9PRV2,E3WEB6,P46937,Q86T74",YAP1,Yes associated protein 1,gene with protein product
+110,p1@YAP1,10413,16262,"E9PRV2,E3WEB6,P46937,Q86T74",YAP1,Yes associated protein 1,gene with protein product
+111,p6@YAP1,10413,16262,"P46937,F5GWC5,F5H202",YAP1,Yes associated protein 1,gene with protein product
+112,p9@YAP1,10413,16262,"P46937,F5GWC5,F5H202",YAP1,Yes associated protein 1,gene with protein product
+113,p7@YAP1,10413,16262,"P46937,F5GWC5,F5H202",YAP1,Yes associated protein 1,gene with protein product
+114,p5@YAP1,10413,16262,"P46937,F5GWC5,F5H202",YAP1,Yes associated protein 1,gene with protein product
+115,p3@YAP1,10413,16262,,YAP1,Yes associated protein 1,gene with protein product
+116,p11@YAP1,10413,16262,"E3WEB5,E3WEB6,P46937",YAP1,Yes associated protein 1,gene with protein product
+117,p18@YAP1,10413,16262,"E3WEB5,E3WEB6,P46937",YAP1,Yes associated protein 1,gene with protein product
+118,p10@YAP1,10413,16262,"B4DTY1,B7ZA01,P46937,Q86T74",YAP1,Yes associated protein 1,gene with protein product
+119,p15@MMP1,4312,7155,Q96DZ4,MMP1,matrix metallopeptidase 1,gene with protein product
+120,p2@MMP1,4312,7155,Q96DZ4,MMP1,matrix metallopeptidase 1,gene with protein product
+121,p16@MMP1,4312,7155,Q96DZ4,MMP1,matrix metallopeptidase 1,gene with protein product
+122,p17@MMP1,4312,7155,Q96DZ4,MMP1,matrix metallopeptidase 1,gene with protein product
+123,p18@MMP1,4312,7155,Q96DZ4,MMP1,matrix metallopeptidase 1,gene with protein product
+124,p19@MMP1,4312,7155,Q53G95,MMP1,matrix metallopeptidase 1,gene with protein product
+125,p20@MMP1,4312,7155,Q53G95,MMP1,matrix metallopeptidase 1,gene with protein product
+126,p5@MMP1,4312,7155,A5GZ69,MMP1,matrix metallopeptidase 1,gene with protein product
+127,p3@MMP1,4312,7155,Q53G97,MMP1,matrix metallopeptidase 1,gene with protein product
+128,p10@MMP1,4312,7155,,MMP1,matrix metallopeptidase 1,gene with protein product
+129,p12@MMP1,4312,7155,,MMP1,matrix metallopeptidase 1,gene with protein product
+130,p4@MMP1,4312,7155,,MMP1,matrix metallopeptidase 1,gene with protein product
+131,p11@MMP1,4312,7155,,MMP1,matrix metallopeptidase 1,gene with protein product
+132,p14@MMP1,4312,7155,,MMP1,matrix metallopeptidase 1,gene with protein product
+133,p1@MMP1,4312,7155,P03956,MMP1,matrix metallopeptidase 1,gene with protein product
+134,p17@ATM,472,795,E9PIN0,ATM,ATM serine/threonine kinase,gene with protein product
+135,p3@ATM,472,795,Q13315,ATM,ATM serine/threonine kinase,gene with protein product
+136,p7@ATM,472,795,E9PIQ5,ATM,ATM serine/threonine kinase,gene with protein product
+137,p1@ATM,472,795,"E9PIQ5,E9PRG7",ATM,ATM serine/threonine kinase,gene with protein product
+138,p5@ATM,472,795,,ATM,ATM serine/threonine kinase,gene with protein product
+139,p2@ATM,472,795,Q6P7P1,ATM,ATM serine/threonine kinase,gene with protein product
+140,p9@ATM,472,795,Q6P7P1,ATM,ATM serine/threonine kinase,gene with protein product
+141,p4@ATM,472,795,Q6P7P1,ATM,ATM serine/threonine kinase,gene with protein product
+142,p10@ATM,472,795,Q6P7P1,ATM,ATM serine/threonine kinase,gene with protein product
+143,p1@CD44,960,1681,E7EPC6,CD44,CD44 molecule (Indian blood group),gene with protein product
+144,p33@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+145,p12@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+146,p7@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+147,p11@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+148,p18@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+149,p3@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+150,p15@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+151,p2@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+152,p34@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+153,p10@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+154,p8@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+155,p5@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+156,p25@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+157,p6@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+158,p17@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+159,p23@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+160,p21@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+161,p31@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+162,p4@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+163,p35@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+164,p32@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+165,p14@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+166,p36@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+167,p37@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+168,p38@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+169,p39@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+170,p13@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+171,p30@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+172,p22@CD44,960,1681,,CD44,CD44 molecule (Indian blood group),gene with protein product
+173,p7@RELA,5970,9955,E9PJR1,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+174,p12@RELA,5970,9955,E9PJR1,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+175,p1@RELA,5970,9955,"Q96CP1,E9PSE4,E9PN69,E9PNK5,E9PMD5,E9PKH5,E9PM47,B4E082",RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+176,p2@RELA,5970,9955,E9PNV4,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+177,p4@RELA,5970,9955,,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+178,p3@RELA,5970,9955,Q04206,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+179,p5@RELA,5970,9955,Q04206,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+180,p8@RELA,5970,9955,Q04206,RELA,"RELA proto-oncogene, NF-kB subunit",gene with protein product
+181,p2@BRMS1,25855,17262,E9PPD1,BRMS1,breast cancer metastasis suppressor 1,gene with protein product
+182,p3@BRMS1,25855,17262,E9PPD1,BRMS1,breast cancer metastasis suppressor 1,gene with protein product
+183,p1@BRMS1,25855,17262,"Q9HCU9,G5E9I4",BRMS1,breast cancer metastasis suppressor 1,gene with protein product
+184,p21@GSTP1,2950,4638,P09211,GSTP1,glutathione S-transferase pi 1,gene with protein product
+185,p10@GSTP1,2950,4638,P09211,GSTP1,glutathione S-transferase pi 1,gene with protein product
+186,p4@GSTP1,2950,4638,A8MX94,GSTP1,glutathione S-transferase pi 1,gene with protein product
+187,p2@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+188,p1@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+189,p9@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+190,p6@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+191,p12@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+192,p8@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+193,p5@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+194,p19@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+195,p20@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+196,p3@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+197,p22@GSTP1,2950,4638,,GSTP1,glutathione S-transferase pi 1,gene with protein product
+198,p11@CCND1,595,1582,P24385,CCND1,cyclin D1,gene with protein product
+199,p1@CCND1,595,1582,"F5H4R3,B4DR06",CCND1,cyclin D1,gene with protein product
+200,p4@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+201,p6@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+202,p9@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+203,p10@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+204,p5@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+205,p12@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+206,p2@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+207,p7@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+208,p3@CCND1,595,1582,,CCND1,cyclin D1,gene with protein product
+209,p2@IGF1,3479,5464,"Q14620,Q9NP10",IGF1,insulin like growth factor 1,gene with protein product
+210,p9@IGF1,3479,5464,"Q14620,Q9NP10",IGF1,insulin like growth factor 1,gene with protein product
+211,p6@IGF1,3479,5464,P05019,IGF1,insulin like growth factor 1,gene with protein product
+212,p4@IGF1,3479,5464,P05019,IGF1,insulin like growth factor 1,gene with protein product
+213,p5@IGF1,3479,5464,P05019,IGF1,insulin like growth factor 1,gene with protein product
+214,p3@IGF1,3479,5464,P05019,IGF1,insulin like growth factor 1,gene with protein product
+215,p1@IGF1,3479,5464,P05019,IGF1,insulin like growth factor 1,gene with protein product
+216,p7@IGF1,3479,5464,"E9PD02,P05019,Q59GC5,Q5U743,Q13429",IGF1,insulin like growth factor 1,gene with protein product
+217,p8@IGF1,3479,5464,E9PD02,IGF1,insulin like growth factor 1,gene with protein product
+218,p11@CDKN1B,1027,1785,P46527,CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+219,p5@CDKN1B,1027,1785,P46527,CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+220,p4@CDKN1B,1027,1785,P46527,CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+221,p6@CDKN1B,1027,1785,P46527,CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+222,p12@CDKN1B,1027,1785,"P46527,Q6I9V6",CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+223,p1@CDKN1B,1027,1785,"P46527,Q6I9V6",CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+224,p3@CDKN1B,1027,1785,B4DPH2,CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+225,p2@CDKN1B,1027,1785,B4DPH2,CDKN1B,cyclin dependent kinase inhibitor 1B,gene with protein product
+226,p1@KRAS,3845,6407,"G3V4K2,G3V5T7,P01116",KRAS,"KRAS proto-oncogene, GTPase",gene with protein product
+227,p2@KRAS,3845,6407,G3V5T7,KRAS,"KRAS proto-oncogene, GTPase",gene with protein product
+228,p3@FOXM1,2305,3818,Q08050,FOXM1,forkhead box M1,gene with protein product
+229,p2@FOXM1,2305,3818,,FOXM1,forkhead box M1,gene with protein product
+230,p1@FOXM1,2305,3818,"Q08050,A8K591,Q53Y49",FOXM1,forkhead box M1,gene with protein product
+231,p4@VDR,7421,12679,,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+232,p12@VDR,7421,12679,F8VVY8,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+233,p3@VDR,7421,12679,F8VVY8,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+234,p7@VDR,7421,12679,F8VVY8,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+235,p11@VDR,7421,12679,F8VVY8,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+236,p8@VDR,7421,12679,F8VVY8,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+237,p10@VDR,7421,12679,F8VVY8,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+238,p2@VDR,7421,12679,G3V1V9,VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+239,p1@VDR,7421,12679,"P11473,B4DRV7,F8VRJ4,F8VXQ9,F8VPF8,G3V1V9,F1D8P8",VDR,"vitamin D (1,25- dihydroxyvitamin D3) receptor",gene with protein product
+240,p3@SP1,6667,11205,,SP1,Sp1 transcription factor,gene with protein product
+241,p1@SP1,6667,11205,"P08047,E4Z9M7",SP1,Sp1 transcription factor,gene with protein product
+242,p10@SP1,6667,11205,"E4Z9M7,P08047",SP1,Sp1 transcription factor,gene with protein product
+243,p4@SP1,6667,11205,"E4Z9M7,P08047",SP1,Sp1 transcription factor,gene with protein product
+244,p34@SP1,6667,11205,G5E9M8,SP1,Sp1 transcription factor,gene with protein product
+245,p2@SP1,6667,11205,,SP1,Sp1 transcription factor,gene with protein product
+246,p35@SP1,6667,11205,,SP1,Sp1 transcription factor,gene with protein product
+247,p36@SP1,6667,11205,,SP1,Sp1 transcription factor,gene with protein product
+248,p37@SP1,6667,11205,C4PGM0,SP1,Sp1 transcription factor,gene with protein product
+249,p38@SP1,6667,11205,C4PGM0,SP1,Sp1 transcription factor,gene with protein product
+250,p4@HOTAIR,,33510,,HOTAIR,HOX transcript antisense RNA,"RNA, long non-coding"
+251,p1@HOTAIR,100124700,33510,,HOTAIR,HOX transcript antisense RNA,"RNA, long non-coding"
+252,p5@HOTAIR,100124700,33510,,HOTAIR,HOX transcript antisense RNA,"RNA, long non-coding"
+253,p6@HOTAIR,100124700,33510,,HOTAIR,HOX transcript antisense RNA,"RNA, long non-coding"
+254,p7@HOTAIR,100124700,33510,,HOTAIR,HOX transcript antisense RNA,"RNA, long non-coding"
+255,p3@ERBB3,2065,3431,"P21860,F8VW48,F8VRL0",ERBB3,erb-b2 receptor tyrosine kinase 3,gene with protein product
+256,p5@ERBB3,2065,3431,P21860,ERBB3,erb-b2 receptor tyrosine kinase 3,gene with protein product
+257,p2@ERBB3,2065,3431,"E7ENT9,P21860",ERBB3,erb-b2 receptor tyrosine kinase 3,gene with protein product
+258,p4@ERBB3,2065,3431,,ERBB3,erb-b2 receptor tyrosine kinase 3,gene with protein product
+259,p1@ERBB3,2065,3431,"F8VRI5,B4DGQ7",ERBB3,erb-b2 receptor tyrosine kinase 3,gene with protein product
+260,p6@ERBB3,2065,3431,"P21860,F8VX90",ERBB3,erb-b2 receptor tyrosine kinase 3,gene with protein product
+261,p3@CDK4,1019,1773,F8VWX7,CDK4,cyclin dependent kinase 4,gene with protein product
+262,p4@CDK4,1019,1773,F8VWX7,CDK4,cyclin dependent kinase 4,gene with protein product
+263,p5@CDK4,1019,1773,,CDK4,cyclin dependent kinase 4,gene with protein product
+264,p1@CDK4,1019,1773,"Q96BE9,B4DNF9,F8VZ51,F8VZZ0,F8VTV8,F8VYH9,F8VYY1",CDK4,cyclin dependent kinase 4,gene with protein product
+265,p2@CDK4,1019,1773,"F8VZ13,F8VXD2",CDK4,cyclin dependent kinase 4,gene with protein product
+266,p1@MDM2,4193,6973,"E9PF57,Q96DS0,Q00987",MDM2,MDM2 proto-oncogene,gene with protein product
+267,p3@MDM2,4193,6973,"A7UKX8,E7EMW5,A7UKY0,A7UKX7",MDM2,MDM2 proto-oncogene,gene with protein product
+268,p2@MDM2,4193,6973,"A7UKX8,E7EPE2,E7EMW5,A7UKY0,A7UKX7",MDM2,MDM2 proto-oncogene,gene with protein product
+269,p4@MDM2,4193,6973,"Q00987,Q9H4C5,E5RHE2,E5RJQ0,Q96DS5,Q9H4C3,F5H1M7,F5H4Q8,F5GZC3,F5GWH7,F5GZB0",MDM2,MDM2 proto-oncogene,gene with protein product
+270,p5@MDM2,4193,6973,,MDM2,MDM2 proto-oncogene,gene with protein product
+271,p15@MDM2,4193,6973,,MDM2,MDM2 proto-oncogene,gene with protein product
+272,p7@MDM2,4193,6973,,MDM2,MDM2 proto-oncogene,gene with protein product
+273,p14@MDM2,4193,6973,,MDM2,MDM2 proto-oncogene,gene with protein product
+274,p3@BRCA2,675,1101,P51587,BRCA2,"BRCA2, DNA repair associated",gene with protein product
+275,p1@BRCA2,675,1101,"P51587,E9PIQ1",BRCA2,"BRCA2, DNA repair associated",gene with protein product
+276,p2@BRCA2,675,1101,E9PIQ1,BRCA2,"BRCA2, DNA repair associated",gene with protein product
+277,p4@BRCA2,675,1101,E9PIQ1,BRCA2,"BRCA2, DNA repair associated",gene with protein product
+278,p5@BRCA2,675,1101,A1YBP1,BRCA2,"BRCA2, DNA repair associated",gene with protein product
+279,p1@TNFSF11,8600,11926,"O14788,Q5T9Y4",TNFSF11,tumor necrosis factor superfamily member 11,gene with protein product
+280,p2@RB1,5925,9884,"F5H6G1,P06400",RB1,RB transcriptional corepressor 1,gene with protein product
+281,p3@RB1,5925,9884,"P06400,Q92728",RB1,RB transcriptional corepressor 1,gene with protein product
+282,p4@RB1,5925,9884,"P06400,Q92728",RB1,RB transcriptional corepressor 1,gene with protein product
+283,p1@RB1,5925,9884,"P06400,Q92728",RB1,RB transcriptional corepressor 1,gene with protein product
+284,p6@RB1,5925,9884,"P06400,Q92728",RB1,RB transcriptional corepressor 1,gene with protein product
+285,p8@RB1,5925,9884,,RB1,RB transcriptional corepressor 1,gene with protein product
+286,p5@RB1,5925,9884,,RB1,RB transcriptional corepressor 1,gene with protein product
+287,p2@XRCC3,7517,12830,,XRCC3,X-ray repair cross complementing 3,gene with protein product
+288,p1@XRCC3,7517,12830,"O43542,G3V2P3,G3V399,G3V3Q2,G3V3C8,G3V5K0,Q53XC8",XRCC3,X-ray repair cross complementing 3,gene with protein product
+289,p2@AKT1,207,391,P31749,AKT1,AKT serine/threonine kinase 1,gene with protein product
+290,p1@AKT1,207,391,"P31749,B0LPE5",AKT1,AKT serine/threonine kinase 1,gene with protein product
+291,p2@MMP14,4323,7160,P50281,MMP14,matrix metallopeptidase 14,gene with protein product
+292,p1@MMP14,4323,7160,"F8VP90,P50281",MMP14,matrix metallopeptidase 14,gene with protein product
+293,p3@MMP14,4323,7160,F8VP90,MMP14,matrix metallopeptidase 14,gene with protein product
+294,p4@MMP14,4323,7160,F8VP90,MMP14,matrix metallopeptidase 14,gene with protein product
+295,p5@MMP14,4323,7160,F8VP90,MMP14,matrix metallopeptidase 14,gene with protein product
+296,p6@MMP14,4323,7160,,MMP14,matrix metallopeptidase 14,gene with protein product
+297,p7@MMP14,4323,7160,,MMP14,matrix metallopeptidase 14,gene with protein product
+298,p11@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+299,p3@FOXA1,3169,5021,G3V4B9,FOXA1,forkhead box A1,gene with protein product
+300,p1@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+301,p4@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+302,p7@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+303,p12@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+304,p5@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+305,p2@FOXA1,3169,5021,P55317,FOXA1,forkhead box A1,gene with protein product
+306,p9@FOXA1,3169,5021,,FOXA1,forkhead box A1,gene with protein product
+307,p13@FOXA1,3169,5021,B7ZAP5,FOXA1,forkhead box A1,gene with protein product
+308,p28@HIF1A,3091,4910,B4E2U7,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+309,p1@HIF1A,3091,4910,"F8W9L0,B4E2U7",HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+310,p2@HIF1A,3091,4910,"Q16665,A8MYV6",HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+311,p3@HIF1A,3091,4910,"Q16665,A8MYV6",HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+312,p27@HIF1A,3091,4910,"C0LZJ3,F8W9L0,Q16665",HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+313,p7@HIF1A,3091,4910,,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+314,p4@HIF1A,3091,4910,,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+315,p5@HIF1A,3091,4910,,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+316,p8@HIF1A,3091,4910,,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+317,p6@HIF1A,3091,4910,,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+318,p11@HIF1A,3091,4910,,HIF1A,hypoxia inducible factor 1 alpha subunit,gene with protein product
+319,p2@ESR2,2100,3468,Q92731,ESR2,estrogen receptor 2,gene with protein product
+320,p5@ESR2,2100,3468,Q92731,ESR2,estrogen receptor 2,gene with protein product
+321,p1@ESR2,2100,3468,Q92731,ESR2,estrogen receptor 2,gene with protein product
+322,p14@ESR2,2100,3468,"F5GWJ8,G3V5S2,F1D8N3,Q92731,Q7LCB3",ESR2,estrogen receptor 2,gene with protein product
+323,p10@ESR2,2100,3468,,ESR2,estrogen receptor 2,gene with protein product
+324,p3@ESR2,2100,3468,,ESR2,estrogen receptor 2,gene with protein product
+325,p1@RAD51,5888,9817,"Q06609,Q6ZNA8,E9PJ30",RAD51,RAD51 recombinase,gene with protein product
+326,p2@RAD51,5888,9817,E9PJ30,RAD51,RAD51 recombinase,gene with protein product
+327,p5@RAD51,5888,9817,Q9NZG9,RAD51,RAD51 recombinase,gene with protein product
+328,p10@CYP19A1,1588,2594,,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+329,p3@CYP19A1,1588,2594,,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+330,p7@CYP19A1,1588,2594,P11511,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+331,p14@CYP19A1,1588,2594,,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+332,p5@CYP19A1,1588,2594,"Q8IYJ7,F5GXR9",CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+333,p2@CYP19A1,1588,2594,"Q8IYJ7,F5GXR9",CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+334,p6@CYP19A1,1588,2594,,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+335,p16@CYP19A1,1588,2594,,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+336,p4@CYP19A1,1588,2594,,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+337,p1@CYP19A1,1588,2594,"P11511,E9PGZ6,E7EQ08,E7EPL6,Q8IYG4,Q8TCA4,A8K6W3,Q05CU4",CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+338,p15@CYP19A1,1588,2594,P11511,CYP19A1,cytochrome P450 family 19 subfamily A member 1,gene with protein product
+339,p1@CYP1A1,1543,2595,"P04798,A0N0X8,A4F3V9",CYP1A1,cytochrome P450 family 1 subfamily A member 1,gene with protein product
+340,p13@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+341,p1@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+342,p5@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+343,p17@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+344,p4@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+345,p8@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+346,p50@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+347,p2@IGF1R,3480,5465,P08069,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+348,p51@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+349,p49@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+350,p16@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+351,p35@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+352,p14@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+353,p21@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+354,p10@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+355,p11@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+356,p52@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+357,p29@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+358,p3@IGF1R,3480,5465,,IGF1R,insulin like growth factor 1 receptor,gene with protein product
+359,p1@PALB2,79728,26144,Q86YC2,PALB2,partner and localizer of BRCA2,gene with protein product
+360,p9@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+361,p1@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+362,p2@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+363,p7@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+364,p6@SULT1A1,6817,11453,,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+365,p3@SULT1A1,6817,11453,,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+366,p10@SULT1A1,6817,11453,,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+367,p4@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+368,p8@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+369,p5@SULT1A1,6817,11453,P50225,SULT1A1,sulfotransferase family 1A member 1,gene with protein product
+370,p15@MAPK3,5595,6877,,MAPK3,mitogen-activated protein kinase 3,gene with protein product
+371,p2@MAPK3,5595,6877,"E9PRH7,B3KR49",MAPK3,mitogen-activated protein kinase 3,gene with protein product
+372,p6@MAPK3,5595,6877,E9PRH7,MAPK3,mitogen-activated protein kinase 3,gene with protein product
+373,p5@MAPK3,5595,6877,,MAPK3,mitogen-activated protein kinase 3,gene with protein product
+374,p3@MAPK3,5595,6877,,MAPK3,mitogen-activated protein kinase 3,gene with protein product
+375,p1@MAPK3,5595,6877,"P27361,E9PQW4",MAPK3,mitogen-activated protein kinase 3,gene with protein product
+376,p3@TOX3,27324,11972,"O15405,B4DRD0",TOX3,TOX high mobility group box family member 3,gene with protein product
+377,p2@TOX3,27324,11972,"O15405,B4DRD0",TOX3,TOX high mobility group box family member 3,gene with protein product
+378,p1@TOX3,27324,11972,"O15405,B4DRD0",TOX3,TOX high mobility group box family member 3,gene with protein product
+379,p8@TOX3,27324,11972,B4DRD0,TOX3,TOX high mobility group box family member 3,gene with protein product
+380,p3@MMP2,4313,7166,P08253,MMP2,matrix metallopeptidase 2,gene with protein product
+381,p2@MMP2,4313,7166,P08253,MMP2,matrix metallopeptidase 2,gene with protein product
+382,p1@MMP2,4313,7166,P08253,MMP2,matrix metallopeptidase 2,gene with protein product
+383,p6@MMP2,4313,7166,Q2EF79,MMP2,matrix metallopeptidase 2,gene with protein product
+384,p4@MMP2,4313,7166,Q2EF79,MMP2,matrix metallopeptidase 2,gene with protein product
+385,p7@MMP2,4313,7166,,MMP2,matrix metallopeptidase 2,gene with protein product
+386,p5@MMP2,4313,7166,,MMP2,matrix metallopeptidase 2,gene with protein product
+387,p8@MMP2,4313,7166,,MMP2,matrix metallopeptidase 2,gene with protein product
+388,p1@CDH1,999,1748,"F5GYI6,A8K1U7,P12830,Q9UII8",CDH1,cadherin 1,gene with protein product
+389,p3@CDH1,999,1748,,CDH1,cadherin 1,gene with protein product
+390,p2@CDH1,999,1748,P12830,CDH1,cadherin 1,gene with protein product
+391,p2@NQO1,1728,2874,,NQO1,NAD(P)H quinone dehydrogenase 1,gene with protein product
+392,p1@NQO1,1728,2874,B4DLR8,NQO1,NAD(P)H quinone dehydrogenase 1,gene with protein product
+393,p1@CCL2,6347,10618,P13500,CCL2,C-C motif chemokine ligand 2,gene with protein product
+394,p20@CCL2,6347,10618,,CCL2,C-C motif chemokine ligand 2,gene with protein product
+395,p2@CCL2,6347,10618,,CCL2,C-C motif chemokine ligand 2,gene with protein product
+396,p21@CCL2,6347,10618,,CCL2,C-C motif chemokine ligand 2,gene with protein product
+397,p4@ERBB2,2064,3430,"P04626,Q9UK79",ERBB2,erb-b2 receptor tyrosine kinase 2,gene with protein product
+398,p5@ERBB2,2064,3430,"P04626,Q9UK79",ERBB2,erb-b2 receptor tyrosine kinase 2,gene with protein product
+399,p6@ERBB2,2064,3430,B4DTR1,ERBB2,erb-b2 receptor tyrosine kinase 2,gene with protein product
+400,p3@ERBB2,2064,3430,B4DTR1,ERBB2,erb-b2 receptor tyrosine kinase 2,gene with protein product
+401,p2@ERBB2,2064,3430,P04626,ERBB2,erb-b2 receptor tyrosine kinase 2,gene with protein product
+402,p1@ERBB2,2064,3430,P04626,ERBB2,erb-b2 receptor tyrosine kinase 2,gene with protein product
+403,p4@TOP2A,7153,11989,,TOP2A,topoisomerase (DNA) II alpha,gene with protein product
+404,p1@TOP2A,7153,11989,C9J5P2,TOP2A,topoisomerase (DNA) II alpha,gene with protein product
+405,p2@TOP2A,7153,11989,C9J5P2,TOP2A,topoisomerase (DNA) II alpha,gene with protein product
+406,p17@STAT3,6774,11364,,STAT3,signal transducer and activator of transcription 3,gene with protein product
+407,p14@STAT3,6774,11364,,STAT3,signal transducer and activator of transcription 3,gene with protein product
+408,p12@STAT3,6774,11364,,STAT3,signal transducer and activator of transcription 3,gene with protein product
+409,p24@STAT3,6774,11364,,STAT3,signal transducer and activator of transcription 3,gene with protein product
+410,p7@STAT3,6774,11364,,STAT3,signal transducer and activator of transcription 3,gene with protein product
+411,p1@STAT3,6774,11364,P40763,STAT3,signal transducer and activator of transcription 3,gene with protein product
+412,p2@STAT3,6774,11364,P40763,STAT3,signal transducer and activator of transcription 3,gene with protein product
+413,p3@STAT3,6774,11364,P40763,STAT3,signal transducer and activator of transcription 3,gene with protein product
+414,p1@HSD17B1,3292,5210,B4DU11,HSD17B1,hydroxysteroid 17-beta dehydrogenase 1,gene with protein product
+415,p12@BRCA1,672,1100,,BRCA1,"BRCA1, DNA repair associated",gene with protein product
+416,p6@BRCA1,672,1100,"E7EWN5,E7ENB7",BRCA1,"BRCA1, DNA repair associated",gene with protein product
+417,p1@BRCA1,672,1100,"P38398,E7EN90,E9PH68,E7EUM2,E7ETR2,E9PFZ0,B7ZA85",BRCA1,"BRCA1, DNA repair associated",gene with protein product
+418,p5@BRCA1,672,1100,"F8W8H7,P38398,E9PFC7,Q3LRJ6,Q6IN79,Q1RMC1",BRCA1,"BRCA1, DNA repair associated",gene with protein product
+419,p3@BRCA1,672,1100,P38398,BRCA1,"BRCA1, DNA repair associated",gene with protein product
+420,p2@BRCA1,672,1100,P38398,BRCA1,"BRCA1, DNA repair associated",gene with protein product
+421,p4@BRCA1,672,1100,P38398,BRCA1,"BRCA1, DNA repair associated",gene with protein product
+422,p3@ITGB3,3690,6156,"P05106,Q2YFE1",ITGB3,integrin subunit beta 3,gene with protein product
+423,p2@ITGB3,3690,6156,"P05106,Q2YFE1",ITGB3,integrin subunit beta 3,gene with protein product
+424,p1@ITGB3,3690,6156,"P05106,Q2YFE1",ITGB3,integrin subunit beta 3,gene with protein product
+425,"p1@NME1,p3@NME1-NME2,p3@NME2","4830,4831,654364","7849,33531,7850","P15531,P22392,E5RHP0,E7ERL0,Q32Q12",NME1,NME/NM23 nucleoside diphosphate kinase 1,gene with protein product
+426,p2@NME1,4830,7849,P15531,NME1,NME/NM23 nucleoside diphosphate kinase 1,gene with protein product
+427,p1@RAD51C,5889,9820,"O43502,O43503,E9PI66,Q7KZJ0",RAD51C,RAD51 paralog C,gene with protein product
+428,p2@RAD51C,5889,9820,O43503,RAD51C,RAD51 paralog C,gene with protein product
+429,p3@RAD51C,5889,9820,,RAD51C,RAD51 paralog C,gene with protein product
+430,p7@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+431,p4@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+432,p6@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+433,p2@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+434,p1@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+435,p8@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+436,p3@MIR21,406991,31586,,MIR21,microRNA 21,"RNA, micro"
+437,p3@BRIP1,83990,20473,Q9BX63,BRIP1,BRCA1 interacting protein C-terminal helicase 1,gene with protein product
+438,p2@BRIP1,83990,20473,Q9BX63,BRIP1,BRCA1 interacting protein C-terminal helicase 1,gene with protein product
+439,p1@BRIP1,83990,20473,Q9BX63,BRIP1,BRCA1 interacting protein C-terminal helicase 1,gene with protein product
+440,p7@TP53,7157,11998,,TP53,tumor protein p53,gene with protein product
+441,p21@TP53,7157,11998,P04637,TP53,tumor protein p53,gene with protein product
+442,p20@TP53,7157,11998,E7EMR6,TP53,tumor protein p53,gene with protein product
+443,p1@TP53,7157,11998,"E7ERV1,P04637,E7ESS1",TP53,tumor protein p53,gene with protein product
+444,p1@BIRC5,332,593,,BIRC5,baculoviral IAP repeat containing 5,gene with protein product
+445,p2@BIRC5,332,593,,BIRC5,baculoviral IAP repeat containing 5,gene with protein product
+446,p6@BCL2,596,990,Q96PA0,BCL2,"BCL2, apoptosis regulator",gene with protein product
+447,p3@BCL2,596,990,A9QXG9,BCL2,"BCL2, apoptosis regulator",gene with protein product
+448,p14@BCL2,596,990,P10415,BCL2,"BCL2, apoptosis regulator",gene with protein product
+449,p4@BCL2,596,990,,BCL2,"BCL2, apoptosis regulator",gene with protein product
+450,p7@BCL2,596,990,,BCL2,"BCL2, apoptosis regulator",gene with protein product
+451,p2@BCL2,596,990,,BCL2,"BCL2, apoptosis regulator",gene with protein product
+452,p1@BCL2,596,990,P10415,BCL2,"BCL2, apoptosis regulator",gene with protein product
+453,p5@BCL2,596,990,P10415,BCL2,"BCL2, apoptosis regulator",gene with protein product
+454,p2@SERPINB5,5268,8949,P36952,SERPINB5,serpin family B member 5,gene with protein product
+455,p1@SERPINB5,5268,8949,,SERPINB5,serpin family B member 5,gene with protein product
+456,p3@TYMS,7298,12441,"P04818,Q53Y97,Q8WYK3,Q8WYK4",TYMS,thymidylate synthetase,gene with protein product
+457,p2@TYMS,7298,12441,"P04818,Q53Y97,Q8WYK3,Q8WYK4",TYMS,thymidylate synthetase,gene with protein product
+458,p1@TYMS,7298,12441,"Q8WYK3,Q8WYK4",TYMS,thymidylate synthetase,gene with protein product
+459,p4@TYMS,7298,12441,"Q8WYK3,Q8WYK4",TYMS,thymidylate synthetase,gene with protein product
+460,p5@TYMS,7298,12441,"Q8WYK4,Q8WYK3,Q53Y97",TYMS,thymidylate synthetase,gene with protein product
+461,p3@DNMT1,1786,2976,,DNMT1,DNA methyltransferase 1,gene with protein product
+462,p5@DNMT1,1786,2976,,DNMT1,DNA methyltransferase 1,gene with protein product
+463,p1@DNMT1,1786,2976,"P26358,F5GX68",DNMT1,DNA methyltransferase 1,gene with protein product
+464,p2@DNMT1,1786,2976,"P26358,F5GX68",DNMT1,DNA methyltransferase 1,gene with protein product
+465,p1@CCNE1,898,1589,"P24864,C9J2U0",CCNE1,cyclin E1,gene with protein product
+466,p8@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+467,p18@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+468,p13@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+469,p6@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+470,p9@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+471,p10@TGFB1,7040,11766,,TGFB1,transforming growth factor beta 1,gene with protein product
+472,p4@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+473,p19@TGFB1,7040,11766,,TGFB1,transforming growth factor beta 1,gene with protein product
+474,p11@TGFB1,7040,11766,,TGFB1,transforming growth factor beta 1,gene with protein product
+475,p2@TGFB1,7040,11766,,TGFB1,transforming growth factor beta 1,gene with protein product
+476,p5@TGFB1,7040,11766,,TGFB1,transforming growth factor beta 1,gene with protein product
+477,p3@TGFB1,7040,11766,,TGFB1,transforming growth factor beta 1,gene with protein product
+478,p1@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+479,p7@TGFB1,7040,11766,P01137,TGFB1,transforming growth factor beta 1,gene with protein product
+480,p1@XRCC1,7515,12828,"P18887,B4DEB2,F5H8D7,B2RCY5,Q59HH7",XRCC1,X-ray repair cross complementing 1,gene with protein product
+481,p2@XRCC1,7515,12828,"P18887,B2RCY5,Q59HH7",XRCC1,X-ray repair cross complementing 1,gene with protein product
+482,p1@ERCC2,2068,3434,"B4E0F6,Q7KZU6,E7EVE9,P18074",ERCC2,"ERCC excision repair 2, TFIIH core complex helicase subunit",gene with protein product
+483,p5@ERCC1,2067,3433,,ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+484,p2@ERCC1,2067,3433,"Q7Z7F5,B2RC01",ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+485,p3@ERCC1,2067,3433,F5GWP0,ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+486,p1@ERCC1,2067,3433,"P07992,Q96S40,F5GWP0,B2RC01",ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+487,p12@ERCC1,2067,3433,"P07992,Q96S40,B2RC01",ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+488,p4@ERCC1,2067,3433,"P07992,Q96S40,B2RC01",ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+489,p7@ERCC1,2067,3433,B3KRR0,ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+490,p6@ERCC1,2067,3433,B3KRR0,ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",gene with protein product
+491,p2@ELAVL1,1994,3312,,ELAVL1,ELAV like RNA binding protein 1,gene with protein product
+492,p1@ELAVL1,1994,3312,Q15717,ELAVL1,ELAV like RNA binding protein 1,gene with protein product
+493,p1@PIN1,5300,8988,"Q13526,E7EQR5",PIN1,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",gene with protein product
+494,p1@GSTM1,2944,4632,P09488,GSTM1,glutathione S-transferase mu 1,gene with protein product
+495,p2@GSTM1,2944,4632,P09488,GSTM1,glutathione S-transferase mu 1,gene with protein product
+496,p2@MTOR,2475,3942,P42345,MTOR,mechanistic target of rapamycin,gene with protein product
+497,p1@MTOR,2475,3942,"F5GYA6,P42345",MTOR,mechanistic target of rapamycin,gene with protein product
+498,p15@MTHFR,4524,7436,P42898,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+499,p7@MTHFR,4524,7436,P42898,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+500,p1@MTHFR,4524,7436,P42898,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+501,p6@MTHFR,4524,7436,P42898,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+502,p11@MTHFR,4524,7436,"P42898,Q5SNW7,Q8IU67",MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+503,p5@MTHFR,4524,7436,Q5SNW5,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+504,p4@MTHFR,4524,7436,Q5SNW5,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+505,p3@MTHFR,4524,7436,Q5SNW5,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+506,p2@MTHFR,4524,7436,P42898,MTHFR,methylenetetrahydrofolate reductase,gene with protein product
+507,p4@MUC1,4582,7508,,MUC1,"mucin 1, cell surface associated",gene with protein product
+508,p6@MUC1,4582,7508,,MUC1,"mucin 1, cell surface associated",gene with protein product
+509,p10@MUC1,4582,7508,,MUC1,"mucin 1, cell surface associated",gene with protein product
+510,p1@MUC1,4582,7508,"A5YRV1,B1AVQ5,E7EUW3,P15941,Q0VAP5,Q0VAP6,Q7Z551,Q7Z550,Q7Z538,A5YRU5,A5YRU7,A5YRV0,A5YRV2,A6ZID6,A6ZID7,A6ZID9,A6ZIE0,A6ZIE4,B6ECB3,A6ZIE6,B1AVR0,Q7Z541",MUC1,"mucin 1, cell surface associated",gene with protein product
+511,p3@MUC1,4582,7508,,MUC1,"mucin 1, cell surface associated",gene with protein product
+512,p18@MUC1,4582,7508,,MUC1,"mucin 1, cell surface associated",gene with protein product
+513,p2@MUC1,4582,7508,,MUC1,"mucin 1, cell surface associated",gene with protein product
+514,p5@PTGS2,5743,9605,,PTGS2,prostaglandin-endoperoxide synthase 2,gene with protein product
+515,p2@PTGS2,5743,9605,D9MWI3,PTGS2,prostaglandin-endoperoxide synthase 2,gene with protein product
+516,p1@PTGS2,5743,9605,P35354,PTGS2,prostaglandin-endoperoxide synthase 2,gene with protein product
+517,p3@IL10,3586,5962,,IL10,interleukin 10,gene with protein product
+518,p2@IL10,3586,5962,,IL10,interleukin 10,gene with protein product
+519,p6@IL10,3586,5962,,IL10,interleukin 10,gene with protein product
+520,p4@IL10,3586,5962,Q71UZ1,IL10,interleukin 10,gene with protein product
+521,p5@IL10,3586,5962,,IL10,interleukin 10,gene with protein product
+522,p1@IL10,3586,5962,"P22301,Q6FGW4",IL10,interleukin 10,gene with protein product
+523,p10@IL10,3586,5962,,IL10,interleukin 10,gene with protein product
+524,p3@PARP1,142,270,F8WC10,PARP1,poly(ADP-ribose) polymerase 1,gene with protein product
+525,p2@PARP1,142,270,P09874,PARP1,poly(ADP-ribose) polymerase 1,gene with protein product
+526,p1@PARP1,142,270,"Q5VX84,P09874",PARP1,poly(ADP-ribose) polymerase 1,gene with protein product
+527,p20@YBX1,4904,8014,P67809,YBX1,Y-box binding protein 1,gene with protein product
+528,p15@YBX1,4904,8014,P67809,YBX1,Y-box binding protein 1,gene with protein product
+529,p17@YBX1,4904,8014,P67809,YBX1,Y-box binding protein 1,gene with protein product
+530,p10@YBX1,4904,8014,P67809,YBX1,Y-box binding protein 1,gene with protein product
+531,p7@YBX1,4904,8014,P67809,YBX1,Y-box binding protein 1,gene with protein product
+532,p1@YBX1,4904,8014,P67809,YBX1,Y-box binding protein 1,gene with protein product
+533,p5@YBX1,4904,8014,,YBX1,Y-box binding protein 1,gene with protein product
+534,p3@YBX1,4904,8014,,YBX1,Y-box binding protein 1,gene with protein product
+535,p6@YBX1,4904,8014,,YBX1,Y-box binding protein 1,gene with protein product
+536,p2@YBX1,4904,8014,,YBX1,Y-box binding protein 1,gene with protein product
+537,p4@YBX1,4904,8014,,YBX1,Y-box binding protein 1,gene with protein product
+538,p11@YBX1,4904,8014,A0JLU4,YBX1,Y-box binding protein 1,gene with protein product
+539,p4@JUN,3725,6204,P05412,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",gene with protein product
+540,p3@JUN,3725,6204,P05412,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",gene with protein product
+541,p1@JUN,3725,6204,P05412,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",gene with protein product
+542,p2@JUN,3725,6204,P05412,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",gene with protein product
+543,p5@JUN,3725,6204,P05412,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",gene with protein product
+544,p4@LEPR,3953,6554,,LEPR,leptin receptor,gene with protein product
+545,p7@LEPR,3953,6554,,LEPR,leptin receptor,gene with protein product
+546,"p1@LEPROT,p1@LEPR","3953,54741","6554,29477","P48357,A2RRQ4",LEPR,leptin receptor,gene with protein product
+547,p5@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+548,p12@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+549,p8@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+550,p13@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+551,p3@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+552,p14@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+553,p11@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+554,p15@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+555,p6@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+556,p2@LEPR,3953,6554,"P48357,Q4G138",LEPR,leptin receptor,gene with protein product
+557,p2@E2F1,1869,3113,"Q01094,Q9BSD8",E2F1,E2F transcription factor 1,gene with protein product
+558,p1@E2F1,1869,3113,"Q01094,Q9BSD8",E2F1,E2F transcription factor 1,gene with protein product
+559,p25@SRC,6714,11283,P12931,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+560,p3@SRC,6714,11283,P12931,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+561,p5@SRC,6714,11283,,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+562,p4@SRC,6714,11283,,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+563,p2@SRC,6714,11283,,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+564,p1@SRC,6714,11283,,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+565,p9@SRC,6714,11283,P12931,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+566,p6@SRC,6714,11283,P12931,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+567,p16@SRC,6714,11283,P12931,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+568,p18@SRC,6714,11283,,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",gene with protein product
+569,p2@MMP9,4318,7176,P14780,MMP9,matrix metallopeptidase 9,gene with protein product
+570,p1@MMP9,4318,7176,P14780,MMP9,matrix metallopeptidase 9,gene with protein product
+571,p14@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+572,p7@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+573,p13@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+574,p10@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+575,p11@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+576,p9@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+577,p8@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+578,p6@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+579,p5@MMP9,4318,7176,F5H3W7,MMP9,matrix metallopeptidase 9,gene with protein product
+580,p3@MMP9,4318,7176,B7Z7V0,MMP9,matrix metallopeptidase 9,gene with protein product
+581,p4@MMP9,4318,7176,B7Z7V0,MMP9,matrix metallopeptidase 9,gene with protein product
+582,p15@MMP9,4318,7176,F2YBS6,MMP9,matrix metallopeptidase 9,gene with protein product
+583,p3@NCOA3,8202,7670,"C9JCR8,Q59EE8,Q9Y6Q9",NCOA3,nuclear receptor coactivator 3,gene with protein product
+584,p1@NCOA3,8202,7670,Q9Y6Q9,NCOA3,nuclear receptor coactivator 3,gene with protein product
+585,p2@NCOA3,8202,7670,,NCOA3,nuclear receptor coactivator 3,gene with protein product
+586,p4@NCOA3,8202,7670,,NCOA3,nuclear receptor coactivator 3,gene with protein product
+587,p8@NCOA3,8202,7670,,NCOA3,nuclear receptor coactivator 3,gene with protein product
+588,p5@NCOA3,8202,7670,,NCOA3,nuclear receptor coactivator 3,gene with protein product
+589,p1@SNAI1,6615,11128,O95863,SNAI1,snail family transcriptional repressor 1,gene with protein product
+590,p3@AURKA,6790,11393,Q5QPD2,AURKA,aurora kinase A,gene with protein product
+591,p1@AURKA,6790,11393,"O14965,A3KFJ0,Q5QPD4,A3KFJ2,Q5QPD1",AURKA,aurora kinase A,gene with protein product
+592,p2@MIR155,406947,31542,,MIR155,microRNA 155,"RNA, micro"
+593,p1@MIR155,406947,31542,,MIR155,microRNA 155,"RNA, micro"
+594,p1@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+595,p4@COMT,1312,2228,,COMT,catechol-O-methyltransferase,gene with protein product
+596,p27@COMT,1312,2228,,COMT,catechol-O-methyltransferase,gene with protein product
+597,p2@COMT,1312,2228,,COMT,catechol-O-methyltransferase,gene with protein product
+598,p26@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+599,p21@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+600,p10@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+601,p9@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+602,p3@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+603,p5@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+604,p14@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+605,p8@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+606,p13@COMT,1312,2228,,COMT,catechol-O-methyltransferase,gene with protein product
+607,p6@COMT,1312,2228,,COMT,catechol-O-methyltransferase,gene with protein product
+608,p28@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+609,p7@COMT,1312,2228,P21964,COMT,catechol-O-methyltransferase,gene with protein product
+610,p5@MAPK1,5594,6871,,MAPK1,mitogen-activated protein kinase 1,gene with protein product
+611,p2@MAPK1,5594,6871,P28482,MAPK1,mitogen-activated protein kinase 1,gene with protein product
+612,p1@MAPK1,5594,6871,"P28482,B4DHN0",MAPK1,mitogen-activated protein kinase 1,gene with protein product
+613,p16@MAPK1,5594,6871,"P28482,Q1HBJ4,Q499G7,A8CZ64",MAPK1,mitogen-activated protein kinase 1,gene with protein product
+614,p4@GSTT1,2952,4641,Q6IC69,GSTT1,glutathione S-transferase theta 1,gene with protein product
+615,p2@GSTT1,2952,4641,"Q4W251,F8WCF3,Q6IC69",GSTT1,glutathione S-transferase theta 1,gene with protein product
+616,p1@GSTT1,2952,4641,"E9PH92,G5E9I8,G5E9K8,E9PGP8",GSTT1,glutathione S-transferase theta 1,gene with protein product
+617,p3@GSTT1,2952,4641,P30711,GSTT1,glutathione S-transferase theta 1,gene with protein product
+618,p5@CHEK2,11200,16627,,CHEK2,checkpoint kinase 2,gene with protein product
+619,p4@CHEK2,11200,16627,,CHEK2,checkpoint kinase 2,gene with protein product
+620,p3@CHEK2,11200,16627,,CHEK2,checkpoint kinase 2,gene with protein product
+621,p1@CHEK2,11200,16627,"O96017,C9JFD7,B7ZBF8,B7ZBF2,F8WCV2",CHEK2,checkpoint kinase 2,gene with protein product
+622,p2@CHEK2,11200,16627,"E7EPP1,Q9HBS5",CHEK2,checkpoint kinase 2,gene with protein product
+623,p1@CYP2D6,1565,2625,,CYP2D6,cytochrome P450 family 2 subfamily D member 6,gene with protein product
+624,p2@CYP2D6,1565,2625,Q6ICD8,CYP2D6,cytochrome P450 family 2 subfamily D member 6,gene with protein product
+625,p4@IL1B,3553,5992,"B5BUQ8,O43645",IL1B,interleukin 1 beta,gene with protein product
+626,p2@IL1B,3553,5992,"B5BUQ8,O43645",IL1B,interleukin 1 beta,gene with protein product
+627,p11@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+628,p8@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+629,p12@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+630,p5@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+631,p10@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+632,p6@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+633,p3@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+634,p9@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+635,p14@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+636,p13@IL1B,3553,5992,,IL1B,interleukin 1 beta,gene with protein product
+637,p7@IL1B,3553,5992,P01584,IL1B,interleukin 1 beta,gene with protein product
+638,p1@IL1B,3553,5992,P01584,IL1B,interleukin 1 beta,gene with protein product
+639,p2@CXCR4,7852,2561,Q5MIL4,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+640,p5@CXCR4,7852,2561,Q5MIL4,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+641,p3@CXCR4,7852,2561,Q5MIL4,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+642,p4@CXCR4,7852,2561,Q5MIL4,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+643,p7@CXCR4,7852,2561,P61073,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+644,p6@CXCR4,7852,2561,,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+645,p1@CXCR4,7852,2561,P61073,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+646,p13@CXCR4,7852,2561,P61073,CXCR4,C-X-C motif chemokine receptor 4,gene with protein product
+647,p2@NFE2L2,4780,7782,C9JFL6,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+648,p3@NFE2L2,4780,7782,C9JBM0,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+649,p6@NFE2L2,4780,7782,,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+650,p7@NFE2L2,4780,7782,C9J0Y1,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+651,p9@NFE2L2,4780,7782,"Q16236,B4E338,E9PGJ7",NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+652,p5@NFE2L2,4780,7782,,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+653,p1@NFE2L2,4780,7782,,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+654,p10@NFE2L2,4780,7782,C9J3K4,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+655,p12@NFE2L2,4780,7782,C9J3K4,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+656,p16@NFE2L2,4780,7782,C9J3K4,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+657,p35@NFE2L2,4780,7782,C9J3K4,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+658,p13@NFE2L2,4780,7782,Q16236,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+659,p14@NFE2L2,4780,7782,Q16236,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+660,p4@NFE2L2,"4780,100130691",7782,,NFE2L2,"nuclear factor, erythroid 2 like 2",gene with protein product
+661,p2@CASP8,841,1509,Q14790,CASP8,caspase 8,gene with protein product
+662,p3@CASP8,841,1509,"E7EVN1,C9JB29",CASP8,caspase 8,gene with protein product
+663,p11@CASP8,841,1509,E7EQ06,CASP8,caspase 8,gene with protein product
+664,p5@CASP8,841,1509,"Q14790,A8MU92",CASP8,caspase 8,gene with protein product
+665,p6@CASP8,841,1509,"E7ETB7,F8WF39",CASP8,caspase 8,gene with protein product
+666,p8@CASP8,841,1509,F8WF39,CASP8,caspase 8,gene with protein product
+667,p9@CASP8,841,1509,Q14790,CASP8,caspase 8,gene with protein product
+668,p4@CASP8,841,1509,Q14790,CASP8,caspase 8,gene with protein product
+669,p1@CASP8,841,1509,Q14790,CASP8,caspase 8,gene with protein product
+670,p8@ERBB4,2066,3432,,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+671,p12@ERBB4,2066,3432,E9PDR1,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+672,p10@ERBB4,2066,3432,E9PDR1,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+673,p7@ERBB4,2066,3432,,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+674,p3@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+675,p11@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+676,p6@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+677,p2@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+678,p1@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+679,p4@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+680,p5@ERBB4,2066,3432,Q15303,ERBB4,erb-b2 receptor tyrosine kinase 4,gene with protein product
+681,p2@BARD1,580,952,,BARD1,BRCA1 associated RING domain 1,gene with protein product
+682,p1@BARD1,580,952,"Q99728,C9IYG1,E7EUI3,F8WCG2,A0AVN2",BARD1,BRCA1 associated RING domain 1,gene with protein product
+683,p3@BARD1,580,952,"Q99728,A0AVN2",BARD1,BRCA1 associated RING domain 1,gene with protein product
+684,p12@CYP1B1,1545,2597,"Q16678,Q5TZV6",CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+685,p6@CYP1B1,1545,2597,"Q16678,Q5TZV6",CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+686,p5@CYP1B1,1545,2597,"Q16678,Q5TZV6",CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+687,p7@CYP1B1,1545,2597,,CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+688,p3@CYP1B1,1545,2597,,CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+689,p2@CYP1B1,1545,2597,,CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+690,p1@CYP1B1,1545,2597,,CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+691,p9@CYP1B1,1545,2597,"Q16678,Q53TK1",CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+692,p13@CYP1B1,1545,2597,"Q16678,Q53TK1",CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+693,p4@CYP1B1,1545,2597,"Q16678,Q53TK1",CYP1B1,cytochrome P450 family 1 subfamily B member 1,gene with protein product
+694,p22@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+695,p12@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+696,p14@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+697,p2@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+698,p7@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+699,p6@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+700,p1@EPCAM,4072,11529,P16422,EPCAM,epithelial cell adhesion molecule,gene with protein product
+701,p3@EPCAM,4072,11529,,EPCAM,epithelial cell adhesion molecule,gene with protein product
+702,p4@EPCAM,4072,11529,C9JKY3,EPCAM,epithelial cell adhesion molecule,gene with protein product
+703,p10@EPCAM,4072,11529,,EPCAM,epithelial cell adhesion molecule,gene with protein product
+704,p5@EPCAM,4072,11529,,EPCAM,epithelial cell adhesion molecule,gene with protein product
+705,p8@EPCAM,4072,11529,,EPCAM,epithelial cell adhesion molecule,gene with protein product
+706,p10@GSK3B,2932,4617,F5H615,GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+707,p11@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+708,p3@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+709,p9@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+710,p7@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+711,p6@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+712,p1@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+713,p2@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+714,p4@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+715,p5@GSK3B,2932,4617,"P49841,Q6FI27",GSK3B,glycogen synthase kinase 3 beta,gene with protein product
+716,p4@PPARG,5468,9236,"D2KUA6,P37231,Q4W4C6",PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+717,p5@PPARG,5468,9236,"D2KUA6,P37231,Q4W4C6",PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+718,p3@PPARG,5468,9236,,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+719,p2@PPARG,5468,9236,,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+720,p6@PPARG,5468,9236,,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+721,p17@PPARG,5468,9236,E9PFV2,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+722,p1@PPARG,5468,9236,E9PFV2,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+723,p11@PPARG,5468,9236,P37231,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+724,p8@PPARG,5468,9236,P37231,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+725,p16@PPARG,5468,9236,P37231,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+726,p7@PPARG,5468,9236,P37231,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+727,p15@PPARG,5468,9236,E9PFV3,PPARG,peroxisome proliferator activated receptor gamma,gene with protein product
+728,p24@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+729,p39@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+730,p2@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+731,p12@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+732,p14@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+733,p18@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+734,p21@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+735,p10@WWTR1,25937,24042,Q9GZV5,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+736,p7@WWTR1,25937,24042,C9J337,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+737,p5@WWTR1,25937,24042,Q9GZV5,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+738,p15@WWTR1,25937,24042,Q9GZV5,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+739,p13@WWTR1,25937,24042,Q9GZV5,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+740,p9@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+741,p16@WWTR1,25937,24042,C9J038,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+742,p4@WWTR1,25937,24042,C9J038,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+743,p3@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+744,p40@WWTR1,25937,24042,,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+745,p1@WWTR1,25937,24042,"C9J588,Q9GZV5",WWTR1,WW domain containing transcription regulator 1,gene with protein product
+746,p35@WWTR1,25937,24042,C9JQS8,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+747,p31@WWTR1,25937,24042,C9JQS8,WWTR1,WW domain containing transcription regulator 1,gene with protein product
+748,p1@TNFSF10,8743,11925,,TNFSF10,tumor necrosis factor superfamily member 10,gene with protein product
+749,p2@TNFSF10,8743,11925,A1Y9B3,TNFSF10,tumor necrosis factor superfamily member 10,gene with protein product
+750,p3@TNFSF10,8743,11925,"P50591,A1Y9B3,Q6IBA9",TNFSF10,tumor necrosis factor superfamily member 10,gene with protein product
+751,p4@TNFSF10,8743,11925,"P50591,A1Y9B3,Q6IBA9",TNFSF10,tumor necrosis factor superfamily member 10,gene with protein product
+752,p8@PIK3CA,5290,8975,C9J951,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",gene with protein product
+753,p2@PIK3CA,5290,8975,C9J951,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",gene with protein product
+754,p6@PIK3CA,5290,8975,C9J951,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",gene with protein product
+755,p1@PIK3CA,5290,8975,P42336,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",gene with protein product
+756,p3@PIK3CA,5290,8975,P42336,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",gene with protein product
+757,p7@PIK3CA,5290,8975,P42336,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",gene with protein product
+758,p3@SOX2,6657,11195,P48431,SOX2,SRY-box 2,gene with protein product
+759,p1@SOX2,6657,11195,P48431,SOX2,SRY-box 2,gene with protein product
+760,p2@SOX2,6657,11195,P48431,SOX2,SRY-box 2,gene with protein product
+761,p7@SOX2,6657,11195,P48431,SOX2,SRY-box 2,gene with protein product
+762,p8@SOX2,6657,11195,,SOX2,SRY-box 2,gene with protein product
+763,p6@SOX2,6657,11195,,SOX2,SRY-box 2,gene with protein product
+764,p2@ADIPOQ,9370,13633,"Q15848,A8K660,B2R773",ADIPOQ,"adiponectin, C1Q and collagen domain containing",gene with protein product
+765,p1@ADIPOQ,9370,13633,Q15848,ADIPOQ,"adiponectin, C1Q and collagen domain containing",gene with protein product
+766,p3@ADIPOQ,9370,13633,A8K660,ADIPOQ,"adiponectin, C1Q and collagen domain containing",gene with protein product
+767,p4@TP63,8626,15979,,TP63,tumor protein p63,gene with protein product
+768,p16@TP63,8626,15979,,TP63,tumor protein p63,gene with protein product
+769,p7@TP63,8626,15979,,TP63,tumor protein p63,gene with protein product
+770,p2@TP63,8626,15979,,TP63,tumor protein p63,gene with protein product
+771,p1@TP63,8626,15979,Q9H3D4,TP63,tumor protein p63,gene with protein product
+772,p3@TP63,8626,15979,C9JW72,TP63,tumor protein p63,gene with protein product
+773,p5@TP63,8626,15979,,TP63,tumor protein p63,gene with protein product
+774,p15@TP63,8626,15979,,TP63,tumor protein p63,gene with protein product
+775,p8@TP63,8626,15979,Q9H3D4,TP63,tumor protein p63,gene with protein product
+776,p46@CTNNB1,1499,2514,C9IZ65,CTNNB1,catenin beta 1,gene with protein product
+777,p48@CTNNB1,1499,2514,P35222,CTNNB1,catenin beta 1,gene with protein product
+778,p49@CTNNB1,1499,2514,P35222,CTNNB1,catenin beta 1,gene with protein product
+779,p2@CTNNB1,1499,2514,P35222,CTNNB1,catenin beta 1,gene with protein product
+780,p1@CTNNB1,1499,2514,P35222,CTNNB1,catenin beta 1,gene with protein product
+781,p11@CTNNB1,1499,2514,E7EV28,CTNNB1,catenin beta 1,gene with protein product
+782,p8@CTNNB1,1499,2514,E7EV28,CTNNB1,catenin beta 1,gene with protein product
+783,p3@CTNNB1,1499,2514,E7EV28,CTNNB1,catenin beta 1,gene with protein product
+784,p38@CTNNB1,1499,2514,E7EV28,CTNNB1,catenin beta 1,gene with protein product
+785,p47@CTNNB1,1499,2514,E7EV28,CTNNB1,catenin beta 1,gene with protein product
+786,p5@CTNNB1,1499,2514,,CTNNB1,catenin beta 1,gene with protein product
+787,p9@CTNNB1,1499,2514,,CTNNB1,catenin beta 1,gene with protein product
+788,p50@CTNNB1,1499,2514,,CTNNB1,catenin beta 1,gene with protein product
+789,p4@RHOA,387,667,Q9BVT0,RHOA,ras homolog family member A,gene with protein product
+790,p3@RHOA,387,667,P61586,RHOA,ras homolog family member A,gene with protein product
+791,p1@RHOA,387,667,"C9JX21,C9JNR4,C9JRM1",RHOA,ras homolog family member A,gene with protein product
+792,p2@RHOA,387,667,"C9J1T2,P61586,Q9BVT0",RHOA,ras homolog family member A,gene with protein product
+793,p4@RASSF1,11186,9882,Q5TZT2,RASSF1,Ras association domain family member 1,gene with protein product
+794,p1@RASSF1,11186,9882,"Q5TZT2,Q9NS23",RASSF1,Ras association domain family member 1,gene with protein product
+795,p3@RASSF1,11186,9882,"Q5TZT2,Q9NS23",RASSF1,Ras association domain family member 1,gene with protein product
+796,p8@RASSF1,11186,9882,Q9NS23,RASSF1,Ras association domain family member 1,gene with protein product
+797,p14@RASSF1,11186,9882,Q9NS23,RASSF1,Ras association domain family member 1,gene with protein product
+798,p9@RASSF1,11186,9882,Q9NS23,RASSF1,Ras association domain family member 1,gene with protein product
+799,p6@RASSF1,11186,9882,Q9NS23,RASSF1,Ras association domain family member 1,gene with protein product
+800,p15@RASSF1,11186,9882,,RASSF1,Ras association domain family member 1,gene with protein product
+801,p12@RASSF1,11186,9882,,RASSF1,Ras association domain family member 1,gene with protein product
+802,p2@RASSF1,11186,9882,Q9NS23,RASSF1,Ras association domain family member 1,gene with protein product
+803,p10@RASSF1,11186,9882,Q9NS23,RASSF1,Ras association domain family member 1,gene with protein product
+804,p5@RASSF1,11186,9882,,RASSF1,Ras association domain family member 1,gene with protein product
+805,p5@NFKB1,4790,7794,P19838,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+806,p6@NFKB1,4790,7794,P19838,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+807,p3@NFKB1,4790,7794,P19838,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+808,p2@NFKB1,4790,7794,P19838,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+809,p1@NFKB1,4790,7794,"D6RH30,D6RDI9",NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+810,p46@NFKB1,4790,7794,D6RH30,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+811,p11@NFKB1,4790,7794,D6RH30,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+812,p4@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+813,p8@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+814,p43@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+815,p19@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+816,p15@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+817,p28@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+818,p12@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+819,p9@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+820,p44@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+821,p45@NFKB1,4790,7794,,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+822,p23@NFKB1,4790,7794,P19838,NFKB1,nuclear factor kappa B subunit 1,gene with protein product
+823,p1@EGF,1950,3229,"P01133,E7EVD2",EGF,epidermal growth factor,gene with protein product
+824,p2@EGF,1950,3229,P01133,EGF,epidermal growth factor,gene with protein product
+825,p3@EGF,1950,3229,,EGF,epidermal growth factor,gene with protein product
+826,p2@KDR,3791,6307,B4DEK3,KDR,kinase insert domain receptor,gene with protein product
+827,p3@KDR,3791,6307,P35968,KDR,kinase insert domain receptor,gene with protein product
+828,p1@KDR,3791,6307,P35968,KDR,kinase insert domain receptor,gene with protein product
+829,p1@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+830,p4@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+831,p15@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+832,p5@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+833,p9@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+834,p6@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+835,p13@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+836,p3@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+837,p2@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+838,p7@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+839,p11@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+840,p12@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+841,p10@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+842,p8@IL8,3576,6025,,CXCL8,C-X-C motif chemokine ligand 8,gene with protein product
+843,p1@SPP1,6696,11255,D6R9C5,SPP1,secreted phosphoprotein 1,gene with protein product
+844,p3@SPP1,6696,11255,,SPP1,secreted phosphoprotein 1,gene with protein product
+845,p4@SPP1,6696,11255,,SPP1,secreted phosphoprotein 1,gene with protein product
+846,p5@SPP1,6696,11255,F2YBS5,SPP1,secreted phosphoprotein 1,gene with protein product
+847,p2@SPP1,6696,11255,F2YBS5,SPP1,secreted phosphoprotein 1,gene with protein product
+848,p6@SPP1,6696,11255,F2YBS4,SPP1,secreted phosphoprotein 1,gene with protein product
+849,p3@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+850,p6@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+851,p9@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+852,p4@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+853,p2@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+854,p7@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+855,p1@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+856,p16@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+857,p19@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+858,p8@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+859,p5@ABCG2,9429,74,Q9UNQ0,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+860,p25@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+861,p12@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+862,p21@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+863,p20@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+864,p10@ABCG2,9429,74,,ABCG2,ATP binding cassette subfamily G member 2 (Junior blood group),gene with protein product
+865,p1@TERT,7015,11730,O14746,TERT,telomerase reverse transcriptase,gene with protein product
+866,p1@MIR146A,406938,31533,,MIR146A,microRNA 146a,"RNA, micro"
+867,p2@FGFR4,2264,3691,P22455,FGFR4,fibroblast growth factor receptor 4,gene with protein product
+868,p1@FGFR4,2264,3691,"P22455,E7EWF4,D6RJD4,D6RG06,G3JVM2",FGFR4,fibroblast growth factor receptor 4,gene with protein product
+869,p3@FGFR4,2264,3691,"G3JVM2,P22455",FGFR4,fibroblast growth factor receptor 4,gene with protein product
+870,p18@FGFR4,2264,3691,D6R9V0,FGFR4,fibroblast growth factor receptor 4,gene with protein product
+871,p5@FGFR4,2264,3691,D6R9V0,FGFR4,fibroblast growth factor receptor 4,gene with protein product
+872,p4@FGFR4,2264,3691,D6R9V0,FGFR4,fibroblast growth factor receptor 4,gene with protein product
+873,p7@FGFR4,2264,3691,D6R9V0,FGFR4,fibroblast growth factor receptor 4,gene with protein product
+874,p19@FGFR4,2264,3691,Q96KE5,FGFR4,fibroblast growth factor receptor 4,gene with protein product
+875,p8@PRLR,5618,9446,,PRLR,prolactin receptor,gene with protein product
+876,p20@PRLR,5618,9446,"P16471,Q8TD76",PRLR,prolactin receptor,gene with protein product
+877,p26@PRLR,5618,9446,"P16471,Q8TD76",PRLR,prolactin receptor,gene with protein product
+878,p7@PRLR,5618,9446,"P16471,Q8TD76",PRLR,prolactin receptor,gene with protein product
+879,p5@PRLR,5618,9446,"P16471,Q8TD76",PRLR,prolactin receptor,gene with protein product
+880,p27@PRLR,5618,9446,"P16471,Q8TD76",PRLR,prolactin receptor,gene with protein product
+881,p12@PRLR,5618,9446,"P16471,Q8TD76",PRLR,prolactin receptor,gene with protein product
+882,p6@PRLR,5618,9446,D6RD41,PRLR,prolactin receptor,gene with protein product
+883,p22@PRLR,5618,9446,D6RD41,PRLR,prolactin receptor,gene with protein product
+884,p3@PRLR,5618,9446,D6RD41,PRLR,prolactin receptor,gene with protein product
+885,p4@PRLR,5618,9446,D6R9V7,PRLR,prolactin receptor,gene with protein product
+886,p15@PRLR,5618,9446,D6RJC8,PRLR,prolactin receptor,gene with protein product
+887,p1@PRLR,5618,9446,D6RAN9,PRLR,prolactin receptor,gene with protein product
+888,p2@PRLR,5618,9446,D6RAN9,PRLR,prolactin receptor,gene with protein product
+889,p13@PRLR,5618,9446,P16471,PRLR,prolactin receptor,gene with protein product
+890,p17@PRLR,5618,9446,,PRLR,prolactin receptor,gene with protein product
+891,p19@PRLR,5618,9446,P16471,PRLR,prolactin receptor,gene with protein product
+892,p4@SKP2,6502,10901,,SKP2,S-phase kinase associated protein 2,gene with protein product
+893,p2@SKP2,6502,10901,"Q13309,C9JN85",SKP2,S-phase kinase associated protein 2,gene with protein product
+894,p1@SKP2,6502,10901,"D6RAG5,D6RF40,D6R9R7,B4DJT4,Q13309",SKP2,S-phase kinase associated protein 2,gene with protein product
+895,p3@SKP2,6502,10901,D6RF40,SKP2,S-phase kinase associated protein 2,gene with protein product
+896,p1@FOXO3,2309,3821,O43524,FOXO3,forkhead box O3,gene with protein product
+897,p3@FOXO3,2309,3821,O43524,FOXO3,forkhead box O3,gene with protein product
+898,p6@FOXO3,2309,3821,O43524,FOXO3,forkhead box O3,gene with protein product
+899,p2@FOXO3,2309,3821,O43524,FOXO3,forkhead box O3,gene with protein product
+900,p10@FOXO3,2309,3821,O43524,FOXO3,forkhead box O3,gene with protein product
+901,p4@FOXO3,2309,3821,O43524,FOXO3,forkhead box O3,gene with protein product
+902,p8@FOXO3,2309,3821,F5H7C9,FOXO3,forkhead box O3,gene with protein product
+903,p7@FOXO3,2309,3821,"B4DVZ6,Q68DV3",FOXO3,forkhead box O3,gene with protein product
+904,p11@FOXO3,2309,3821,"B4DVZ6,Q68DV3",FOXO3,forkhead box O3,gene with protein product
+905,p8@ESR1,2099,3467,,ESR1,estrogen receptor 1,gene with protein product
+906,p12@ESR1,2099,3467,,ESR1,estrogen receptor 1,gene with protein product
+907,p7@ESR1,2099,3467,"Q5T5H8,P03372",ESR1,estrogen receptor 1,gene with protein product
+908,p1@ESR1,2099,3467,"Q5T5H8,P03372",ESR1,estrogen receptor 1,gene with protein product
+909,p6@ESR1,2099,3467,"Q5T5H8,P03372",ESR1,estrogen receptor 1,gene with protein product
+910,p22@ESR1,2099,3467,"E7EVR3,P03372",ESR1,estrogen receptor 1,gene with protein product
+911,p3@ESR1,2099,3467,"E7EVR3,P03372",ESR1,estrogen receptor 1,gene with protein product
+912,p4@ESR1,2099,3467,"E7EVR3,P03372",ESR1,estrogen receptor 1,gene with protein product
+913,p10@ESR1,2099,3467,Q9UE35,ESR1,estrogen receptor 1,gene with protein product
+914,p14@ESR1,2099,3467,Q9UE35,ESR1,estrogen receptor 1,gene with protein product
+915,p23@ESR1,2099,3467,"P03372,Q9UBT1",ESR1,estrogen receptor 1,gene with protein product
+916,p24@ESR1,2099,3467,P03372,ESR1,estrogen receptor 1,gene with protein product
+917,p25@ESR1,2099,3467,P03372,ESR1,estrogen receptor 1,gene with protein product
+918,p26@ESR1,2099,3467,P03372,ESR1,estrogen receptor 1,gene with protein product
+919,p5@ESR1,2099,3467,"Q9H2M1,P03372",ESR1,estrogen receptor 1,gene with protein product
+920,p2@ESR1,2099,3467,"Q9H2M1,P03372",ESR1,estrogen receptor 1,gene with protein product
+921,p13@ESR1,2099,3467,,ESR1,estrogen receptor 1,gene with protein product
+922,p9@ESR1,2099,3467,F6SD09,ESR1,estrogen receptor 1,gene with protein product
+923,p17@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+924,p49@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+925,p38@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+926,p25@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+927,p31@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+928,p37@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+929,p30@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+930,p24@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+931,p19@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+932,p26@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+933,p18@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+934,p21@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+935,p7@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+936,p10@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+937,p16@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+938,p8@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+939,p14@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+940,p13@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+941,p11@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+942,p4@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+943,p27@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+944,p28@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+945,p1@SOD2,6648,11180,"P04179,B4E3K9,G5E9P6,F5GXZ9",SOD2,superoxide dismutase 2,gene with protein product
+946,p2@SOD2,6648,11180,P04179,SOD2,superoxide dismutase 2,gene with protein product
+947,p9@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+948,p5@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+949,p29@SOD2,6648,11180,,SOD2,superoxide dismutase 2,gene with protein product
+950,p6@SOD2,6648,11180,F5H4R2,SOD2,superoxide dismutase 2,gene with protein product
+951,p3@SOD2,6648,11180,F5GYZ5,SOD2,superoxide dismutase 2,gene with protein product
+952,p48@SOD2,6648,11180,F5H3C5,SOD2,superoxide dismutase 2,gene with protein product
+953,p50@SOD2,"6648,100129518",11180,,SOD2,superoxide dismutase 2,gene with protein product
+954,p1@TNF,7124,11892,"P01375,C1K3N5,Q5STB3",TNF,tumor necrosis factor,gene with protein product
+955,p16@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+956,p10@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+957,p7@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+958,p5@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+959,p13@TNF,7124,11892,"B5BUQ6,P01375",TNF,tumor necrosis factor,gene with protein product
+960,p14@TNF,7124,11892,"B5BUQ6,P01375",TNF,tumor necrosis factor,gene with protein product
+961,p4@TNF,7124,11892,"B5BUQ6,P01375,Q9UBM5",TNF,tumor necrosis factor,gene with protein product
+962,p11@TNF,7124,11892,P01375,TNF,tumor necrosis factor,gene with protein product
+963,p3@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+964,p2@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+965,p15@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+966,p6@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+967,p9@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+968,p8@TNF,7124,11892,,TNF,tumor necrosis factor,gene with protein product
+969,p4@MAPK14,1432,6876,Q16539,MAPK14,mitogen-activated protein kinase 14,gene with protein product
+970,p3@MAPK14,1432,6876,Q16539,MAPK14,mitogen-activated protein kinase 14,gene with protein product
+971,p2@MAPK14,1432,6876,B4E0K5,MAPK14,mitogen-activated protein kinase 14,gene with protein product
+972,p1@MAPK14,1432,6876,,MAPK14,mitogen-activated protein kinase 14,gene with protein product
+973,p5@MAPK14,1432,6876,E7EX54,MAPK14,mitogen-activated protein kinase 14,gene with protein product
+974,p8@MAPK14,1432,6876,E7EX54,MAPK14,mitogen-activated protein kinase 14,gene with protein product
+975,p9@CDKN1A,1026,1784,"P38936,Q6FI05",CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+976,p3@CDKN1A,1026,1784,"P38936,Q6FI05",CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+977,p4@CDKN1A,1026,1784,"P38936,Q6FI05",CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+978,p13@CDKN1A,1026,1784,,CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+979,p14@CDKN1A,1026,1784,"P38936,Q6FI05",CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+980,p1@CDKN1A,1026,1784,"P38936,Q6FI05",CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+981,p2@CDKN1A,1026,1784,,CDKN1A,cyclin dependent kinase inhibitor 1A,gene with protein product
+982,p1@VEGFA,7422,12680,"P15692,Q6WZM0",VEGFA,vascular endothelial growth factor A,gene with protein product
+983,p2@VEGFA,7422,12680,,VEGFA,vascular endothelial growth factor A,gene with protein product
+984,p3@VEGFA,7422,12680,A2A2V4,VEGFA,vascular endothelial growth factor A,gene with protein product
+985,p44@VEGFA,7422,12680,A2A2V4,VEGFA,vascular endothelial growth factor A,gene with protein product
+986,p13@VEGFA,7422,12680,,VEGFA,vascular endothelial growth factor A,gene with protein product
+987,p15@VEGFA,7422,12680,,VEGFA,vascular endothelial growth factor A,gene with protein product
+988,p6@VEGFA,7422,12680,,VEGFA,vascular endothelial growth factor A,gene with protein product
+989,p4@VEGFA,7422,12680,,VEGFA,vascular endothelial growth factor A,gene with protein product
+990,p47@RUNX2,860,10472,,RUNX2,runt related transcription factor 2,gene with protein product
+991,p28@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+992,p24@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+993,p1@RUNX2,860,10472,"Q5T802,Q13950,F6RGB9",RUNX2,runt related transcription factor 2,gene with protein product
+994,p13@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+995,p53@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+996,p34@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+997,p52@RUNX2,860,10472,,RUNX2,runt related transcription factor 2,gene with protein product
+998,p54@RUNX2,860,10472,,RUNX2,runt related transcription factor 2,gene with protein product
+999,p3@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1000,p7@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1001,p21@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1002,p23@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1003,p18@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1004,p6@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1005,p2@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1006,p9@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1007,p12@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1008,p5@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1009,p4@RUNX2,860,10472,"Q13950,F8W8U5",RUNX2,runt related transcription factor 2,gene with protein product
+1010,p10@RUNX2,860,10472,Q32MY8,RUNX2,runt related transcription factor 2,gene with protein product
+1011,p15@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+1012,p8@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+1013,p55@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+1014,p11@RUNX2,860,10472,Q13950,RUNX2,runt related transcription factor 2,gene with protein product
+1015,p1@SERPINE1,5054,8583,"P05121,C9J272,F8WD53,B7Z1D9,B7Z4S0",SERPINE1,serpin family E member 1,gene with protein product
+1016,p6@SERPINE1,5054,8583,,SERPINE1,serpin family E member 1,gene with protein product
+1017,p8@SERPINE1,5054,8583,,SERPINE1,serpin family E member 1,gene with protein product
+1018,p3@SERPINE1,5054,8583,,SERPINE1,serpin family E member 1,gene with protein product
+1019,p2@SERPINE1,5054,8583,,SERPINE1,serpin family E member 1,gene with protein product
+1020,p12@SERPINE1,5054,8583,,SERPINE1,serpin family E member 1,gene with protein product
+1021,p13@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1022,p7@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1023,p5@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1024,p4@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1025,p11@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1026,p14@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1027,p9@SERPINE1,5054,8583,P05121,SERPINE1,serpin family E member 1,gene with protein product
+1028,p5@GPER,2852,4485,"Q99527,C9J3W2,Q63ZY2",GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1029,p6@GPER,2852,4485,"Q99527,C9J3W2,Q63ZY2",GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1030,p4@GPER,2852,4485,Q99527,GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1031,p2@GPER,2852,4485,Q99527,GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1032,p1@GPER,2852,4485,"Q99527,Q63ZY2",GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1033,p3@GPER,2852,4485,"Q99527,Q63ZY2",GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1034,p7@GPER,2852,4485,F5GZ65,GPER1,G protein-coupled estrogen receptor 1,gene with protein product
+1035,p2@CAV1,857,1527,"E9PCT5,F8WDM7,Q2TNI1,Q59E85",CAV1,caveolin 1,gene with protein product
+1036,p3@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1037,p4@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1038,p6@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1039,p12@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1040,p26@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1041,p7@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1042,p5@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1043,p38@CAV1,857,1527,C9JKI3,CAV1,caveolin 1,gene with protein product
+1044,p1@CAV1,857,1527,"A9XTE5,Q2TNI1,Q59E85,Q03135",CAV1,caveolin 1,gene with protein product
+1045,p21@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1046,p9@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1047,p16@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1048,p13@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1049,p25@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1050,p47@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1051,p8@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1052,p10@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1053,p11@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1054,p20@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1055,p46@CAV1,857,1527,,CAV1,caveolin 1,gene with protein product
+1056,p33@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1057,p7@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1058,p5@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1059,p3@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1060,p2@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1061,p8@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1062,p9@MET,4233,7029,C9JVH4,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1063,p6@MET,4233,7029,C9JKM5,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1064,p1@MET,4233,7029,"P08581,C9JKM5,A1L467",MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1065,p4@MET,4233,7029,"A1L467,P08581",MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1066,p14@MET,4233,7029,"A1L467,P08581",MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1067,p11@MET,4233,7029,"A1L467,P08581",MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1068,p12@MET,4233,7029,"A1L467,P08581",MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1069,p15@MET,4233,7029,"A1L467,P08581",MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1070,p13@MET,4233,7029,,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1071,p43@MET,4233,7029,Q59EB3,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1072,p38@MET,4233,7029,Q59EB3,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1073,p10@MET,4233,7029,A0PJF7,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1074,p16@MET,4233,7029,,MET,"MET proto-oncogene, receptor tyrosine kinase",gene with protein product
+1075,p2@LEP,3952,6553,"A4D0Y8,P41159",LEP,leptin,gene with protein product
+1076,p1@LEP,3952,6553,"P41159,A4D0Y8",LEP,leptin,gene with protein product
+1077,p6@EZH2,2146,3527,Q15910,EZH2,enhancer of zeste 2 polycomb repressive complex 2 subunit,gene with protein product
+1078,p2@EZH2,2146,3527,Q15910,EZH2,enhancer of zeste 2 polycomb repressive complex 2 subunit,gene with protein product
+1079,p1@EZH2,2146,3527,"E9PDH6,Q15910,G3XAL2,B7Z8L6,Q75MQ0",EZH2,enhancer of zeste 2 polycomb repressive complex 2 subunit,gene with protein product
+1080,p3@EZH2,2146,3527,Q15910,EZH2,enhancer of zeste 2 polycomb repressive complex 2 subunit,gene with protein product
+1081,p2@AHR,196,348,P35869,AHR,aryl hydrocarbon receptor,gene with protein product
+1082,p1@AHR,196,348,P35869,AHR,aryl hydrocarbon receptor,gene with protein product
+1083,p3@AHR,196,348,,AHR,aryl hydrocarbon receptor,gene with protein product
+1084,p4@AHR,196,348,,AHR,aryl hydrocarbon receptor,gene with protein product
+1085,p3@TWIST1,7291,12428,,TWIST1,twist family bHLH transcription factor 1,gene with protein product
+1086,p7@TWIST1,7291,12428,,TWIST1,twist family bHLH transcription factor 1,gene with protein product
+1087,p2@TWIST1,7291,12428,Q15672,TWIST1,twist family bHLH transcription factor 1,gene with protein product
+1088,p1@TWIST1,7291,12428,Q15672,TWIST1,twist family bHLH transcription factor 1,gene with protein product
+1089,p8@IL6,3569,6018,"P05231,B4DNV3,C9J5B0,B4DVM1,Q75MH2",IL6,interleukin 6,gene with protein product
+1090,p1@IL6,3569,6018,B4DNQ5,IL6,interleukin 6,gene with protein product
+1091,p4@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1092,p2@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1093,p3@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1094,p11@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1095,p9@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1096,p10@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1097,p7@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1098,p5@IL6,3569,6018,,IL6,interleukin 6,gene with protein product
+1099,p33@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1100,p25@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1101,p11@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1102,p10@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1103,p12@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1104,p32@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1105,p31@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1106,p18@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1107,p26@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1108,p23@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1109,p22@IGFBP3,3486,5472,Q71RC0,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1110,p8@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1111,p21@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1112,p9@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1113,p14@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1114,p16@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1115,p19@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1116,p17@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1117,p2@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1118,p7@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1119,p13@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1120,p24@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1121,p4@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1122,p6@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1123,p27@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1124,p20@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1125,p42@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1126,p41@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1127,p5@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1128,p3@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1129,p15@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1130,p28@IGFBP3,3486,5472,,IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1131,p1@IGFBP3,3486,5472,"P17936,B3KWK7,B3KRZ1,B3KTS0,B3KPF0",IGFBP3,insulin like growth factor binding protein 3,gene with protein product
+1132,p11@EGFR,1956,3236,Q504U8,EGFR,epidermal growth factor receptor,gene with protein product
+1133,p1@EGFR,1956,3236,Q504U8,EGFR,epidermal growth factor receptor,gene with protein product
+1134,p3@EGFR,1956,3236,,EGFR,epidermal growth factor receptor,gene with protein product
+1135,p2@EGFR,1956,3236,P00533,EGFR,epidermal growth factor receptor,gene with protein product
+1136,p10@EGFR,1956,3236,E9PFD7,EGFR,epidermal growth factor receptor,gene with protein product
+1137,p4@EGFR,1956,3236,,EGFR,epidermal growth factor receptor,gene with protein product
+1138,p1@RAC1,5879,9801,P63000,RAC1,"ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)",gene with protein product
+1139,p2@RAC1,5879,9801,,RAC1,"ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)",gene with protein product
+1140,p10@RAC1,5879,9801,,RAC1,"ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)",gene with protein product
+1141,p1@ABCB1,5243,40,P08183,ABCB1,ATP binding cassette subfamily B member 1,gene with protein product
+1142,p2@ABCB1,5243,40,E7EWT8,ABCB1,ATP binding cassette subfamily B member 1,gene with protein product
+1143,p3@ABCB1,5243,40,"A4D1D2,P08183",ABCB1,ATP binding cassette subfamily B member 1,gene with protein product
+1144,p15@CDK6,1021,1777,,CDK6,cyclin dependent kinase 6,gene with protein product
+1145,p9@CDK6,1021,1777,,CDK6,cyclin dependent kinase 6,gene with protein product
+1146,p23@CDK6,1021,1777,,CDK6,cyclin dependent kinase 6,gene with protein product
+1147,p19@CDK6,1021,1777,,CDK6,cyclin dependent kinase 6,gene with protein product
+1148,p17@CDK6,1021,1777,,CDK6,cyclin dependent kinase 6,gene with protein product
+1149,p43@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1150,p51@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1151,p16@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1152,p4@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1153,p37@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1154,p28@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1155,p8@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1156,p12@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1157,p3@CDK6,1021,1777,"Q00534,A4D1G0",CDK6,cyclin dependent kinase 6,gene with protein product
+1158,p2@CDK6,1021,1777,"Q00534,A4D1G0",CDK6,cyclin dependent kinase 6,gene with protein product
+1159,p10@CDK6,1021,1777,"Q00534,A4D1G0",CDK6,cyclin dependent kinase 6,gene with protein product
+1160,p25@CDK6,1021,1777,"Q00534,A4D1G0",CDK6,cyclin dependent kinase 6,gene with protein product
+1161,p39@CDK6,1021,1777,,CDK6,cyclin dependent kinase 6,gene with protein product
+1162,p6@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1163,p1@CDK6,1021,1777,Q00534,CDK6,cyclin dependent kinase 6,gene with protein product
+1164,p5@CDK6,1021,1777,"A4D1G0,Q00534",CDK6,cyclin dependent kinase 6,gene with protein product
+1165,p18@CDK6,1021,1777,"A4D1G0,Q00534",CDK6,cyclin dependent kinase 6,gene with protein product
+1166,p7@CDK6,1021,1777,"A4D1G0,Q00534",CDK6,cyclin dependent kinase 6,gene with protein product
+1167,p11@CDK6,1021,1777,"A4D1G0,Q00534",CDK6,cyclin dependent kinase 6,gene with protein product
+1168,p13@CDK6,1021,1777,"A4D1G0,Q00534",CDK6,cyclin dependent kinase 6,gene with protein product
+1169,p1@CYP3A4,1576,2637,"E7EVM8,C9JBD2,P08684,Q6GRK0",CYP3A4,cytochrome P450 family 3 subfamily A member 4,gene with protein product
+1170,p2@CYP3A4,1576,2637,P08684,CYP3A4,cytochrome P450 family 3 subfamily A member 4,gene with protein product
+1171,p3@CYP3A4,1576,2637,P08684,CYP3A4,cytochrome P450 family 3 subfamily A member 4,gene with protein product
+1172,p6@MYC,4609,7553,,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1173,p20@MYC,4609,7553,,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1174,p14@MYC,4609,7553,,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1175,p7@MYC,4609,7553,,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1176,p15@MYC,4609,7553,,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1177,p2@MYC,4609,7553,P01106,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1178,p1@MYC,4609,7553,"B4E1N7,E5RGD7",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1179,p4@MYC,4609,7553,"P01106,Q16158",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1180,p19@MYC,4609,7553,"P01106,Q16158",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1181,p24@MYC,4609,7553,"P01106,Q16158",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1182,p8@MYC,4609,7553,"P01106,Q16158",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1183,p25@MYC,4609,7553,"P01106,Q16158",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1184,p10@MYC,4609,7553,"P01106,Q16158",MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1185,p5@MYC,4609,7553,P01106,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1186,p3@MYC,4609,7553,P01106,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1187,p11@MYC,4609,7553,P01106,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1188,p13@MYC,4609,7553,Q6LBK7,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1189,p9@MYC,4609,7553,Q6LBK7,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1190,p12@MYC,4609,7553,Q6LBK7,MYC,v-myc avian myelocytomatosis viral oncogene homolog,gene with protein product
+1191,p23@PTK2,5747,9611,E5RJQ2,PTK2,protein tyrosine kinase 2,gene with protein product
+1192,p19@PTK2,5747,9611,,PTK2,protein tyrosine kinase 2,gene with protein product
+1193,p7@PTK2,5747,9611,B4DWJ1,PTK2,protein tyrosine kinase 2,gene with protein product
+1194,p28@PTK2,5747,9611,B4DWJ1,PTK2,protein tyrosine kinase 2,gene with protein product
+1195,p38@PTK2,5747,9611,B4DWJ1,PTK2,protein tyrosine kinase 2,gene with protein product
+1196,p36@PTK2,5747,9611,B4DWJ1,PTK2,protein tyrosine kinase 2,gene with protein product
+1197,p12@PTK2,5747,9611,E5RGP1,PTK2,protein tyrosine kinase 2,gene with protein product
+1198,p3@PTK2,5747,9611,"E5RJI4,E5RI29,E5RIR5",PTK2,protein tyrosine kinase 2,gene with protein product
+1199,p6@PTK2,5747,9611,Q8N9D7,PTK2,protein tyrosine kinase 2,gene with protein product
+1200,p9@PTK2,5747,9611,,PTK2,protein tyrosine kinase 2,gene with protein product
+1201,p16@PTK2,5747,9611,,PTK2,protein tyrosine kinase 2,gene with protein product
+1202,p11@PTK2,5747,9611,,PTK2,protein tyrosine kinase 2,gene with protein product
+1203,p30@PTK2,5747,9611,E7ESA6,PTK2,protein tyrosine kinase 2,gene with protein product
+1204,p14@PTK2,5747,9611,E7ESA6,PTK2,protein tyrosine kinase 2,gene with protein product
+1205,p8@PTK2,5747,9611,E5RFW9,PTK2,protein tyrosine kinase 2,gene with protein product
+1206,p2@PTK2,5747,9611,"Q05397,E5RG86,E5RG54,E5RJN1",PTK2,protein tyrosine kinase 2,gene with protein product
+1207,p5@PTK2,5747,9611,,PTK2,protein tyrosine kinase 2,gene with protein product
+1208,p1@PTK2,5747,9611,"F5H4S4,F5H4S3,E5RFW9,E5RH01,E5RIK4,E5RH08,E5RJP0",PTK2,protein tyrosine kinase 2,gene with protein product
+1209,p4@PTK2,5747,9611,"B4E2N6,Q59GM6,Q658W2,Q05397",PTK2,protein tyrosine kinase 2,gene with protein product
+1210,p21@PTK2,5747,9611,"B4E2N6,Q59GM6,Q658W2,Q05397",PTK2,protein tyrosine kinase 2,gene with protein product
+1211,p10@PTK2,5747,9611,E5RH01,PTK2,protein tyrosine kinase 2,gene with protein product
+1212,p2@NAT2,10,7646,"P11245,A4Z6T7",NAT2,N-acetyltransferase 2,gene with protein product
+1213,p1@NAT2,10,7646,E7EWF9,NAT2,N-acetyltransferase 2,gene with protein product
+1214,p1@KIAA1967,57805,23360,E5RHH8,CCAR2,cell cycle and apoptosis regulator 2,gene with protein product
+1215,p2@KIAA1967,57805,23360,Q8N163,CCAR2,cell cycle and apoptosis regulator 2,gene with protein product
+1216,p5@KIAA1967,57805,23360,Q8N163,CCAR2,cell cycle and apoptosis regulator 2,gene with protein product
+1217,p12@NRG1,3084,7997,E7EX30,NRG1,neuregulin 1,gene with protein product
+1218,p18@NRG1,3084,7997,E7EX30,NRG1,neuregulin 1,gene with protein product
+1219,p28@NRG1,3084,7997,E7EX30,NRG1,neuregulin 1,gene with protein product
+1220,p24@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1221,p11@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1222,p13@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1223,p29@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1224,p20@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1225,p51@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1226,p52@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1227,p50@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1228,p5@NRG1,3084,7997,"Q02297,F8W9E3,E9PHH4,B0FYA7,B0FYA9,B0FWZ3,B0FYA8,B7Z4Z3,Q6PK61,Q7RTW5,Q7RTW3",NRG1,neuregulin 1,gene with protein product
+1229,p3@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1230,p1@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1231,p8@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1232,p6@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1233,p41@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1234,p4@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1235,p44@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1236,p17@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1237,p14@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1238,p7@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1239,p15@NRG1,3084,7997,Q02297,NRG1,neuregulin 1,gene with protein product
+1240,p35@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1241,p37@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1242,p9@NRG1,3084,7997,E5RHP6,NRG1,neuregulin 1,gene with protein product
+1243,p10@NRG1,3084,7997,E5RHP6,NRG1,neuregulin 1,gene with protein product
+1244,p2@NRG1,3084,7997,"E5RIG8,B7Z1E3,B7Z1D7",NRG1,neuregulin 1,gene with protein product
+1245,p26@NRG1,3084,7997,"E5RIG8,B7Z1E3",NRG1,neuregulin 1,gene with protein product
+1246,p22@NRG1,3084,7997,,NRG1,neuregulin 1,gene with protein product
+1247,p6@FGFR1,2260,3688,,FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1248,p7@FGFR1,2260,3688,,FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1249,p3@FGFR1,2260,3688,"P11362,C9J205,E9PN14",FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1250,p5@FGFR1,2260,3688,,FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1251,p4@FGFR1,2260,3688,,FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1252,p2@FGFR1,2260,3688,,FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1253,p1@FGFR1,2260,3688,P11362,FGFR1,fibroblast growth factor receptor 1,gene with protein product
+1254,p2@SNAI2,6591,11094,O43623,SNAI2,snail family transcriptional repressor 2,gene with protein product
+1255,p1@SNAI2,6591,11094,O43623,SNAI2,snail family transcriptional repressor 2,gene with protein product
+1256,p6@SNAI2,6591,11094,O43623,SNAI2,snail family transcriptional repressor 2,gene with protein product
+1257,p7@SNAI2,6591,11094,O43623,SNAI2,snail family transcriptional repressor 2,gene with protein product
+1258,p5@SNAI2,6591,11094,O43623,SNAI2,snail family transcriptional repressor 2,gene with protein product
+1259,p2@NBN,4683,7652,E5RGR7,NBN,nibrin,gene with protein product
+1260,p6@NBN,4683,7652,E5RGN7,NBN,nibrin,gene with protein product
+1261,p4@NBN,4683,7652,"E5RGU1,E2QRP0",NBN,nibrin,gene with protein product
+1262,p3@NBN,4683,7652,"E5RGU1,E2QRP0",NBN,nibrin,gene with protein product
+1263,p1@NBN,4683,7652,"F5H3R2,E5RGU1,E2QRP0,O60934",NBN,nibrin,gene with protein product
+1264,p7@MTDH,92140,29608,Q86UE4,MTDH,metadherin,gene with protein product
+1265,p6@MTDH,92140,29608,Q86UE4,MTDH,metadherin,gene with protein product
+1266,p1@MTDH,92140,29608,Q86UE4,MTDH,metadherin,gene with protein product
+1267,p2@MTDH,92140,29608,Q86UE4,MTDH,metadherin,gene with protein product
+1268,p3@MTDH,92140,29608,E5RJU9,MTDH,metadherin,gene with protein product
+1269,p1@NOTCH1,4851,7881,P46531,NOTCH1,notch 1,gene with protein product
+1270,p18@CDKN2A,1029,1787,,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1271,p34@CDKN2A,1029,1787,P42771,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1272,p27@CDKN2A,1029,1787,,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1273,p16@CDKN2A,1029,1787,,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1274,p2@CDKN2A,1029,1787,"G3XAG3,A5X2G7,P42771",CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1275,p25@CDKN2A,1029,1787,A5X2G7,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1276,p4@CDKN2A,1029,1787,P42771,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1277,p11@CDKN2A,1029,1787,P42771,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1278,p8@CDKN2A,1029,1787,"P42771,A5X2G7",CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1279,p5@CDKN2A,1029,1787,"P42771,A5X2G7",CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1280,p15@CDKN2A,1029,1787,"P42771,A5X2G7",CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1281,p10@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1282,p6@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1283,p1@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1284,p17@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1285,p9@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1286,p3@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1287,p13@CDKN2A,1029,1787,Q8N726,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1288,p12@CDKN2A,1029,1787,,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1289,p7@CDKN2A,1029,1787,,CDKN2A,cyclin dependent kinase inhibitor 2A,gene with protein product
+1290,p2@CA9,768,1383,"F5H404,Q16790",CA9,carbonic anhydrase 9,gene with protein product
+1291,p1@CA9,768,1383,"F5H404,Q16790",CA9,carbonic anhydrase 9,gene with protein product
+1292,p3@CA9,768,1383,,CA9,carbonic anhydrase 9,gene with protein product
+1293,p4@JAK2,3717,6192,,JAK2,Janus kinase 2,gene with protein product
+1294,p3@JAK2,3717,6192,,JAK2,Janus kinase 2,gene with protein product
+1295,p2@JAK2,3717,6192,,JAK2,Janus kinase 2,gene with protein product
+1296,p6@JAK2,3717,6192,O60674,JAK2,Janus kinase 2,gene with protein product
+1297,p1@JAK2,3717,6192,O60674,JAK2,Janus kinase 2,gene with protein product
+1298,p5@JAK2,3717,6192,O60674,JAK2,Janus kinase 2,gene with protein product
+1299,p9@JAK2,3717,6192,,JAK2,Janus kinase 2,gene with protein product
+1300,p12@JAK2,3717,6192,,JAK2,Janus kinase 2,gene with protein product
+1301,p4@CD274,29126,17635,Q9NZQ7,CD274,CD274 molecule,gene with protein product
+1302,p1@CD274,29126,17635,,CD274,CD274 molecule,gene with protein product
+1303,p2@CD274,29126,17635,,CD274,CD274 molecule,gene with protein product
+1304,p7@ALDH1A1,216,402,P00352,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1305,p2@ALDH1A1,216,402,,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1306,p1@ALDH1A1,216,402,"P00352,Q5SYQ9",ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1307,p13@ALDH1A1,216,402,P00352,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1308,p8@ALDH1A1,216,402,P00352,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1309,p9@ALDH1A1,216,402,P00352,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1310,p10@ALDH1A1,216,402,Q5SYQ7,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1311,p5@ALDH1A1,216,402,Q5SYQ7,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1312,p4@ALDH1A1,216,402,Q5SYQ7,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1313,p3@ALDH1A1,216,402,Q5SYQ8,ALDH1A1,aldehyde dehydrogenase 1 family member A1,gene with protein product
+1314,p1@FOXP3,50943,6106,Q9BZS1,FOXP3,forkhead box P3,gene with protein product
+1315,p2@AR,367,644,"F5H341,P10275",AR,androgen receptor,gene with protein product
+1316,p1@AR,367,644,"F5H341,P10275",AR,androgen receptor,gene with protein product
+1317,p3@AR,367,644,"F5H341,P10275",AR,androgen receptor,gene with protein product
+1318,p7@AR,367,644,"F5H341,P10275",AR,androgen receptor,gene with protein product
+1319,p4@AR,367,644,P10275,AR,androgen receptor,gene with protein product
+1320,p15@AR,367,644,P10275,AR,androgen receptor,gene with protein product
+1321,p5@AR,367,644,,AR,androgen receptor,gene with protein product
+1322,p2@CD24,100133941,1645,,CD24,CD24 molecule,gene with protein product
+1323,p6@CD24,100133941,1645,,CD24,CD24 molecule,gene with protein product
+1324,p3@CD24,100133941,1645,,CD24,CD24 molecule,gene with protein product
+1325,p5@CD24,100133941,1645,,CD24,CD24 molecule,gene with protein product
+1326,p1@CD24,100133941,1645,"B6EC88,P25063",CD24,CD24 molecule,gene with protein product
