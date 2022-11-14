@@ -1,0 +1,32 @@
+---
+title: "CEL file playground"
+author: "Erich Robbi"
+date: "2022-11-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("affyio")
+
+```
+
+
+```{r}
+BiocManager::install("affy")
+```
+
+```{r}
+library(affy)
+
+files = list.files("../data/", full.names = TRUE)
+data = ReadAffy(filenames = files)
+```
+

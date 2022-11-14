@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 .python-version
+.txt
+*.CEL
+*.tar
