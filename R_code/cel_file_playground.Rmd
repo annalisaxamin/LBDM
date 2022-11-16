@@ -21,12 +21,67 @@ BiocManager::install("affyio")
 
 ```{r}
 BiocManager::install("affy")
+BiocManager::install("hgu133plus2cdf")
+BiocManager::install("hgu133plus2.db")
+BiocManager::install("limma")
+BiocManager::install("annotate")
+BiocManager::install("lumiHumanAll.db")
+
+
 ```
 
 ```{r}
 library(affy)
+library(limma)
+library(annotate)
+library(hgu133plus2.db)
+library(lumiHumanAll.db)
+library(biomaRt)
 
 files = list.files("../data/", full.names = TRUE)
 data = ReadAffy(filenames = files)
+```
+
+```{r}
+rma.data <- rma(data)
+
+
+data.matrix <- exprs(rma.data)
+
+
+IDs <- featureNames(rma.data)
+
+Symbol <- getSYMBOL(row.names(data.matrix), "hgu133plus2.db")
+
+Name <- as.character(lookUp(IDs, "hgu133plus2.db", "GENENAME"))
+Ensembl <- as.character(lookUp(IDs, "hgu133plus2.db", "ENSEMBL"))
+Ensembl <- ifelse(Ensembl=="NA", NA, paste("<a href='http://uswest.ensembl.org/Homo_sapiens/Gene/Summary?g=", Ensembl, "'>", Ensembl, "</a>", sep=""))
+tmp <- data.frame(ID=IDs, Symbol=Symbol, Name=Name, Ensembl=Ensembl, stringsAsFactors=F)
+tmp[tmp=="NA"] <- NA
+
+
+```
+
+```{r}
+pData(rma.data)
+annotation(rma.data)
+```
+
+```{r}
+
+mart <- useMart(dataset = "hsapiens_gene_ensembl", biomart='ensembl')
+
+
+row_ids <- row.names(data.matrix)
+genes_names <- getBM(attributes = c('affy_hg_u133_plus_2', 'hgnc_symbol'),
+      values = row_ids, 
+      mart = mart)
+```
+
+```{r}
+genes_names
+```
+```{r}
+snorna_annotati <- genes_names[str_detect(genes_names$hgnc_symbol,"SNOR")== TRUE & genes_names$affy_hg_u133_plus_2 != "",]
 ```
 
