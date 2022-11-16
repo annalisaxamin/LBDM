@@ -1,0 +1,104 @@
+---
+title: "CEL file playground"
+author: "Erich Robbi"
+date: "2022-11-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+#BiocManager::install("affyio")
+
+```
+
+
+```{r}
+BiocManager::install("affy")
+BiocManager::install("hgu133plus2cdf")
+BiocManager::install("hgu133plus2.db")
+BiocManager::install("limma")
+BiocManager::install("annotate")
+BiocManager::install("lumiHumanAll.db")
+BiocManager::install("biomaRt")
+
+```
+
+```{r}
+library(affy)
+library(limma)
+library(annotate)
+library(hgu133plus2.db)
+library(lumiHumanAll.db)
+library(biomaRt)
+library(tidyverse)
+
+files = list.files("./data/", full.names = TRUE)
+data = ReadAffy(filenames = files)
+```
+
+```{r}
+rma.data <- rma(data)
+
+
+data.matrix <- exprs(rma.data)
+
+
+IDs <- featureNames(rma.data)
+
+Symbol <- getSYMBOL(row.names(data.matrix), "hgu133plus2.db")
+
+Name <- as.character(lookUp(IDs, "hgu133plus2.db", "GENENAME"))
+Ensembl <- as.character(lookUp(IDs, "hgu133plus2.db", "ENSEMBL"))
+Ensembl <- ifelse(Ensembl=="NA", NA, paste("<a href='http://uswest.ensembl.org/Homo_sapiens/Gene/Summary?g=", Ensembl, "'>", Ensembl, "</a>", sep=""))
+tmp <- data.frame(ID=IDs, Symbol=Symbol, Name=Name, Ensembl=Ensembl, stringsAsFactors=F)
+tmp[tmp=="NA"] <- NA
+
+
+```
+
+```{r}
+pData(rma.data)
+annotation(rma.data)
+```
+
+```{r}
+
+mart <- useMart(dataset = "hsapiens_gene_ensembl", biomart='ensembl')
+
+
+row_ids <- row.names(data.matrix)
+genes_names <- getBM(attributes = c('affy_hg_u133_plus_2', 'hgnc_symbol'),
+      values = row_ids, 
+      mart = mart)
+```
+
+```{r}
+genes_names
+```
+
+```{r}
+snorna_annotati <- genes_names[str_detect(genes_names$hgnc_symbol,"SNOR")== TRUE & genes_names$affy_hg_u133_plus_2 != "",]
+snorna_annotati
+```
+
+```{r}
+snornas <- c("SNORA1", "SNORA12", "SNORA14B", "SNORA16A", "SNORA21", "SNORA23", "SNORA24", "SNORA32", "SNORA38", "SNORA44", "SNORA48", "SNORA49", "SNORA52", "SNORA53", "SNORA57", "SNORA61", "SNORA63", "SNORA64", "SNORA65", "SNORA70", "SNORA71C", "SNORA73A", "SNORA73B", "SNORA75", "SNORA78", "SNORA8", "SNORD10", "SNORD102", "SNORD104", "SNORD105", "SNORD105B", "SNORD108", "SNORD110", "SNORD111B", "SNORD113-3", "SNORD113-4", "SNORD114-1", "SNORD114-13", "SNORD114-14", "SNORD114-19", "SNORD114-20", "SNORD114-21", "SNORD115-23", "SNORD115-32", "SNORD116-13", "SNORD119", "SNORD12", "SNORD12B", "SNORD13", "SNORD14A", "SNORD14C", "SNORD14D", "SNORD15B", "SNORD16", "SNORD17", "SNORD18A", "SNORD1B", "SNORD20", "SNORD22", "SNORD26", "SNORD28", "SNORD29", "SNORD32A", "SNORD33", "SNORD34", "SNORD35A", "SNORD36A", "SNORD36B", "SNORD38A", "SNORD3A", "SNORD3D", "SNORD41", "SNORD42A", "SNORD42B", "SNORD44", "SNORD45A", "SNORD47", "SNORD49B", "SNORD4B", "SNORD5", "SNORD50A", "SNORD52", "SNORD53", "SNORD54", "SNORD55", "SNORD56", "SNORD57", "SNORD58A", "SNORD58C", "SNORD59A", "SNORD60", "SNORD63", "SNORD64", "SNORD65", "SNORD68", "SNORD69", "SNORD71", "SNORD74", "SNORD76", "SNORD8", "SNORD81", "SNORD82", "SNORD84", "SNORD86", "SNORD87", "SNORD89", "SNORD94", "SNORD96A", "SNORD97", "SNORD99")
+
+hosts <- c("TMX1", "ZFAS1", "CDKN2B-AS1", "CWF19L1", "EIF4A1", "EP400", "HIF1A-AS2", "MEG8", "NOP56", "RACK1", "RPL13A", "RPS13", "SCARNA12", "SNHG12", "SNHG20", "SNHG5", "SNHG6", "SNHG7", "SNHG8")
+
+snornas.in.dataset <- genes_names[genes_names$hgnc_symbol %in% snornas,]
+
+dim(snornas.in.dataset[snornas.in.dataset$affy_hg_u133_plus_2 == "",])
+```
+
+```{r}
+snornas.in.dataset[snornas.in.dataset$affy_hg_u133_plus_2 == "",]$hgnc_symbol
+```
+

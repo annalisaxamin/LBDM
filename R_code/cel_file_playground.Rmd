@@ -44,6 +44,7 @@ library(annotate)
 library(hgu133plus2.db)
 library(lumiHumanAll.db)
 library(biomaRt)
+library(tidyverse)
 ```
 
 # Retrieve data
@@ -114,10 +115,7 @@ print("genes of interest present in the dataset:")
 length(genes.in.dataset.no.duplicates)
 ```
 
-```{r}
-library(tidyverse)
-```
-
+We can now label the data according to the samples in the links at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6090421/table/tI-etm-0-0-6268/?report=objectonly
 ```{r}
 df <- t(expression.matrix)
 df <- as_tibble(df)
@@ -125,8 +123,96 @@ df <- as_tibble(df)
 # 0 = no cancer
 # 1 = cancer
 
-has.cancer <- vector(mode="numeric",length=58)
-has.cancer[28:58] <- 1
+has.cancer <- rep("NoCancer", 121)
+has.cancer[18:121] <- "Cancer"
 df$cancer <- has.cancer
+```
+
+To initially reduce the number of variables used, we can select only the relevant genes for our project
+```{r}
+df_filtered <- subset(df, select=c(genes.in.dataset$affy_hg_u133_plus_2))
+df_filtered$cancer <- has.cancer
+```
+
+The new dataset has 731 variables instead of more than 54000. Nice. Now we can try our hand at classification:
+```{r}
+library(caret)
+set.seed(16112022)
+sample <- caret::createDataPartition(df_filtered$cancer, p=0.8)
+train_data <- df_filtered[sample$Resample1, ]
+test_data <- df_filtered[-sample$Resample1, ]
+ctrl <- trainControl(method="cv")
+```
+
+```{r}
+fitNaive <- train(cancer ~ .,
+                  data = train_data,
+                  method = "naive_bayes",
+                  trControl = ctrl)
+predNaive <- predict(fitNaive, test_data, type = "prob")
+predFinal <- ifelse(predNaive[,2] >= 0.5, "Cancer", "NoCancer")
+table(predFinal, test_data$cancer)
+```
+
+There is an error! Upon further inspection, many columns have the same name because they are the same gene (but with different values). Let's change the column names:
+```{r}
+library(collections, warn.conflicts = FALSE)
+
+columns_filtered <- colnames(df_filtered)
+new_columns <- c()
+previous_columns <- dict()
+previous_count <- 1
+for (column in columns_filtered) {
+  if (previous_columns$has(column)){
+    previous_columns$set(column, previous_columns$get(column) + 1)
+  }
+  else{
+    previous_columns$set(column, 1)
+  }
+  if(column == "cancer"){
+    new_columns <- c(new_columns, column)
+  }
+  else{
+    new_columns <- c(new_columns, paste0(column, "_", previous_columns$get(column)))
+  }
+}
+
+colnames(df_filtered) <- new_columns
+```
+
+Now we can retry our classification:
+```{r}
+set.seed(16112022)
+sample <- caret::createDataPartition(df_filtered$cancer, p=0.8)
+train_data <- df_filtered[sample$Resample1, ]
+test_data <- df_filtered[-sample$Resample1, ]
+
+fitNaive <- train(as.factor(cancer) ~ .,
+                  data = train_data,
+                  method = "naive_bayes",
+                  trControl = ctrl)
+predNaive <- predict(fitNaive, test_data, type = "prob")
+predFinal <- ifelse(predNaive[,2] >= 0.5, "NoCancer", "Cancer")
+table(predFinal, test_data$cancer)
+```
+
+```{r}
+test_data$cancer
+```
+
+```{r}
+ifelse(predNaive[,2] >= 0.5, "NoCancer", "Cancer")
+```
+
+```{r}
+mean(predFinal == test_data$cancer)
+```
+
+```{r}
+sensitivity(table(predFinal,test_data$cancer))
+```
+
+```{r}
+specificity(table(predFinal,test_data$cancer))
 ```
 

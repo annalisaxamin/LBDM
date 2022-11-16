@@ -1,0 +1,13 @@
+```{r}
+BiocManager::install("affyio", force = T)
+library(affyio)
+```
+
+```{r}
+breastCAGEset <- getCTSS(breastCAGEset)
+sampleMap(breastCAGEset)
+```
+
+```{r}
+sampleCEL <- read.celfile("GSM1045191_N1_15_12_04.CEL")
+```
