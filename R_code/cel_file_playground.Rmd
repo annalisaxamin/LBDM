@@ -115,8 +115,18 @@ length(genes.in.dataset.no.duplicates)
 ```
 
 ```{r}
-hosts.in.dataset <- annotLookup[annotLookup$hgnc_symbol %in% hosts & !is.na(annotLookup$hgnc_symbol),]
-
-length(hosts)
-dim(unique.array(hosts.in.dataset))
+library(tidyverse)
 ```
+
+```{r}
+df <- t(expression.matrix)
+df <- as_tibble(df)
+
+# 0 = no cancer
+# 1 = cancer
+
+has.cancer <- vector(mode="numeric",length=58)
+has.cancer[28:58] <- 1
+df$cancer <- has.cancer
+```
+
