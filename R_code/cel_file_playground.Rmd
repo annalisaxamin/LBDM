@@ -9,15 +9,20 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Preparation of the required libraries
+
+Install BiocManager
+
 ```{r}
 
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-BiocManager::install("affyio")
+# BiocManager::install("affyio")
 
 ```
 
+Install the required packages
 
 ```{r}
 BiocManager::install("affy")
@@ -30,6 +35,8 @@ BiocManager::install("lumiHumanAll.db")
 
 ```
 
+Load the libraries
+
 ```{r}
 library(affy)
 library(limma)
@@ -37,18 +44,27 @@ library(annotate)
 library(hgu133plus2.db)
 library(lumiHumanAll.db)
 library(biomaRt)
+```
 
+# Retrieve data
+
+Read the input data
+
+```{r}
 files = list.files("../data/", full.names = TRUE)
 data = ReadAffy(filenames = files)
 ```
 
+Normalization and expression matrix
+
 ```{r}
 rma.data <- rma(data)
-
 
 data.matrix <- exprs(rma.data)
 
 ```
+
+Using the biomaRt package, we retrieve ensembl_gene_id, gene symbols, and annotation information from the Ensembl database. Notice that with attributes you specify the information you want to retrieve from Ensembl. Instead, with filter you specify what you have to initiate the research in the database.
 
 ```{r}
 
@@ -69,16 +85,21 @@ annotLookup <- getBM(
   values = row_ids,
   uniqueRows=TRUE)
 ```
+
+To get all the possible attributes we can specify, we can use the following command.
+
 ```{r}
 listAttributes(mart)
 ```
 
-```{r}
-genes_names
-```
+# Check
+
+Now, we check if the dataset contains the snoRNAs of interest.
+
 ```{r}
 snorna_annotati <- annotLookup[str_detect(annotLookup$hgnc_symbol,"SNOR")== TRUE & annotLookup$affy_hg_u133_plus_2 != "",]
 ```
+
 ```{r}
 snornas <- c("SNORA1", "SNORA12", "SNORA14B", "SNORA16A", "SNORA21", "SNORA23", "SNORA24", "SNORA32", "SNORA38", "SNORA44", "SNORA48", "SNORA49", "SNORA52", "SNORA53", "SNORA57", "SNORA61", "SNORA63", "SNORA64", "SNORA65", "SNORA70", "SNORA71C", "SNORA73A", "SNORA73B", "SNORA75", "SNORA78", "SNORA8", "SNORD10", "SNORD102", "SNORD104", "SNORD105", "SNORD105B", "SNORD108", "SNORD110", "SNORD111B", "SNORD113-3", "SNORD113-4", "SNORD114-1", "SNORD114-13", "SNORD114-14", "SNORD114-19", "SNORD114-20", "SNORD114-21", "SNORD115-23", "SNORD115-32", "SNORD116-13", "SNORD119", "SNORD12", "SNORD12B", "SNORD13", "SNORD14A", "SNORD14C", "SNORD14D", "SNORD15B", "SNORD16", "SNORD17", "SNORD18A", "SNORD1B", "SNORD20", "SNORD22", "SNORD26", "SNORD28", "SNORD29", "SNORD32A", "SNORD33", "SNORD34", "SNORD35A", "SNORD36A", "SNORD36B", "SNORD38A", "SNORD3A", "SNORD3D", "SNORD41", "SNORD42A", "SNORD42B", "SNORD44", "SNORD45A", "SNORD47", "SNORD49B", "SNORD4B", "SNORD5", "SNORD50A", "SNORD52", "SNORD53", "SNORD54", "SNORD55", "SNORD56", "SNORD57", "SNORD58A", "SNORD58C", "SNORD59A", "SNORD60", "SNORD63", "SNORD64", "SNORD65", "SNORD68", "SNORD69", "SNORD71", "SNORD74", "SNORD76", "SNORD8", "SNORD81", "SNORD82", "SNORD84", "SNORD86", "SNORD87", "SNORD89", "SNORD94", "SNORD96A", "SNORD97", "SNORD99")
 
@@ -98,4 +119,3 @@ hosts.in.dataset <- annotLookup[annotLookup$hgnc_symbol %in% hosts & !is.na(anno
 length(hosts)
 dim(unique.array(hosts.in.dataset))
 ```
-
