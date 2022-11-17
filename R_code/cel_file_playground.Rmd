@@ -31,7 +31,7 @@ BiocManager::install("hgu133plus2.db")
 BiocManager::install("limma")
 BiocManager::install("annotate")
 BiocManager::install("lumiHumanAll.db")
-
+BiocManager::install("GEOquery")
 
 ```
 
@@ -45,6 +45,7 @@ library(hgu133plus2.db)
 library(lumiHumanAll.db)
 library(biomaRt)
 library(tidyverse)
+library(GEOquery)
 ```
 
 # Retrieve data
@@ -52,7 +53,7 @@ library(tidyverse)
 Read the input data
 
 ```{r}
-files = list.files("../data/", full.names = TRUE)
+files = list.files("../data/desmedt", full.names = TRUE)
 data = ReadAffy(filenames = files)
 ```
 
@@ -64,6 +65,12 @@ rma.data <- rma(data)
 expression.matrix <- exprs(rma.data)
 
 ```
+
+we read serie matrix file
+```{r}
+gse=getGEO(filename="../data/GSE10810_series_matrix.txt")
+```
+
 
 Using the biomaRt package, we retrieve ensembl_gene_id, gene symbols, and annotation information from the Ensembl database. Notice that with attributes you specify the information you want to retrieve from Ensembl. Instead, with filter you specify what you have to initiate the research in the database.
 

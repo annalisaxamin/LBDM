@@ -1,0 +1,37 @@
+---
+title: "Data Transformation"
+author: "Erich Robbi"
+date: "2022-11-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load the libraries
+
+```{r}
+library(affy)
+library(limma)
+library(annotate)
+library(hgu133plus2.db)
+library(biomaRt)
+library(tidyverse)
+library(GEOquery)
+```
+
+```{r}
+files = list.files("../data/all", full.names = TRUE)
+data = ReadAffy(filenames = files)
+
+
+rma.data <- rma(data)
+rm(data)
+
+expression.matrix <- exprs(rma.data)
+rm(rma.data)
+expression.matrix <- as_tibble(t(expression.matrix))
+write_csv2(expression.matrix,"../matrice.csv")
+```
+
