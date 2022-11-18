@@ -6,3 +6,5 @@
 .txt
 *.CEL
 *.tar
+R_code/exp_matrix.csv
+R_code/exp_matrix_rows.csv
