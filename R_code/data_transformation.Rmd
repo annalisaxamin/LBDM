@@ -64,3 +64,11 @@ exp_tib$GSM1045191_N1_15_12_04.CEL
 expression.matrix[expression.matrix$sample_names ==  'GSM1045191_N1_15_12_04.CEL', ]
 ```
 
+```{r}
+gse <- getGEO(filename="GSE61304_series_matrix.txt",GSEMatrix = TRUE,getGPL = FALSE) #Retrieve matrix data and store it in R object
+show(object = gse) ## To summarize the gse object
+x <- gse$`Stage:ch1` #Get expression set from gse object
+
+write.csv(x = x, file = "GSE2553.expression.matrix.csv", quote = F, row.names = F)
+```
+
