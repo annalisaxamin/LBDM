@@ -53,7 +53,7 @@ library(GEOquery)
 Read the input data
 
 ```{r}
-files = list.files("../data/desmedt", full.names = TRUE)
+files = list.files("../data/", full.names = TRUE)
 data = ReadAffy(filenames = files)
 ```
 
@@ -92,6 +92,8 @@ annotLookup <- getBM(
   filter = "affy_hg_u133_plus_2",
   values = row_ids,
   uniqueRows=TRUE)
+
+write.csv(annotLookup, 'annotation.csv', row.names = F)
 ```
 
 To get all the possible attributes we can specify, we can use the following command.
