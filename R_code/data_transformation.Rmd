@@ -21,14 +21,20 @@ library(tidyverse)
 library(GEOquery)
 ```
 
+We use the RMA normalization, which performs:
+- background correction
+- normalization
+- expression calculation
+
 ```{r}
 files = list.files("../data/", full.names = TRUE)
 data = ReadAffy(filenames = files)
 
-
+# Perform RMA normalization
 rma.data <- rma(data)
 rm(data)
 
+# Get the expression estimates
 expression.matrix <- exprs(rma.data)
 rm(rma.data)
 
@@ -43,6 +49,7 @@ write.csv(expression.matrix,"./exp_matrix_rows.csv", row.names = T)
 #write_csv2(expression.matrix,"../matrice.csv")
 ```
 
+Get the dataset metadata
 ```{r}
 x <- GEOquery::getGEO(filename='GSE10810_series_matrix.txt')
 x@phenoData@data[["title"]]
