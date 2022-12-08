@@ -53,22 +53,78 @@ library(GEOquery)
 Read the input data
 
 ```{r}
-files = list.files("../data/", full.names = TRUE)
-data = ReadAffy(filenames = files)
+files <- list.files("../data/", full.names = TRUE)
+data3 <- ReadAffy(filenames = files)
 ```
 
 Normalization and expression matrix
 
 ```{r}
-rma.data <- rma(data)
-
+rma.data <- affy::rma(data3)
 expression.matrix <- exprs(rma.data)
 
+# has.cancer <- rep(0, 121)
+# has.cancer[18:121] <- 1
+# exp2 <- as_tibble(expression.matrix)
+# exp2[nrow(exp2) + 1,] = t(has.cancer)
+# exp2$genes <- c(row.names(expression.matrix), 'has_cancer')
+# write.csv(exp2, 'expr_clark.csv', row.names = F)
 ```
 
-we read serie matrix file
 ```{r}
-gse=getGEO(filename="../data/GSE10810_series_matrix.txt")
+rma.medians <- rowMedians(Biobase::exprs(rma.data))
+hist_res <- hist(rma.medians, 100, col = "cornsilk1", freq = FALSE, 
+            main = "Histogram of the median intensities", 
+            border = "antiquewhite4",
+            xlab = "Median intensities")
+```
+
+
+we read series matrix file
+```{r}
+gse=getGEO(filename="GSE45827_series_matrix.txt")
+```
+
+We extract information from it
+```{r}
+i <- 1
+type_cancer <- c()
+diagnosis <- c()
+sample_accession <- c()
+source_name <- c()
+while(i <= length(gse$title)){
+  if(str_detect(gse$title[i], "rep1-2")){
+    type_cancer <- c(type_cancer, rep(gse$`tumor subtype:ch1`[i], 2))
+    diagnosis <- c(diagnosis, rep(gse$characteristics_ch1[i], 2))
+    sample_accession <- c(sample_accession, rep(gse$geo_accession[i], 2))
+    source_name <- c(source_name, rep(gse$source_name_ch1[i], 2))
+  }
+  else{
+    type_cancer <- c(type_cancer, gse$`tumor subtype:ch1`[i])
+    diagnosis <- c(diagnosis, gse$characteristics_ch1[i])
+    sample_accession <- c(sample_accession, gse$geo_accession[i])
+    source_name <- c(source_name, gse$source_name_ch1[i])
+  }
+  i <- i + 1
+}
+```
+
+```{r}
+for(i in 1:length(diagnosis)){
+  diagnosis[i] <- str_replace(diagnosis[i], "diagnosis: ", "")
+}
+```
+
+
+We merge the information with the expression matrix and save the csv
+```{r}
+exp_df <- as_tibble(t(expression.matrix))
+exp_df$type <- type_cancer
+exp_df$diagnosis <- diagnosis
+exp_df$sample <- sample_accession
+exp_df$source <- source_name
+
+write.csv(exp_df, "expr_new.csv")
 ```
 
 

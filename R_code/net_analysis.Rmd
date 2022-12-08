@@ -1,0 +1,59 @@
+```{r}
+library(igraph)
+library(tidygraph)
+library(ggraph)
+```
+
+```{r}
+interactions <- read.csv('./Complete_Graph.csv')
+#expansion <- expansion[expansion$Frel > 0.05, ]
+#interactions <- interactions[interactions$Frel > 0.05, ]
+interactions <- interactions[interactions$frel >= 0.95, ]
+fantom_annotation <- read.csv('../Python/dataset/anno-fantom.csv')
+```
+
+```{r}
+nodes <- unique(c(interactions$NodeA, interactions$NodeB))
+edges <- interactions
+colnames(edges) <- c('from', 'to', 'weight')
+label <- c()
+for (node in nodes){
+  label <- c(label, strsplit(node, split = '@')[[1]][2])
+}
+rm(node)
+nodes <- data.frame(nodes, label)
+colnames(nodes) <- c('id', 'label')
+```
+
+```{r}
+routes_igraph <- graph_from_data_frame(d = edges,
+                                       vertices = nodes,
+                                       directed = T)
+```
+
+```{r, fig.width=15}
+ggraph(routes_igraph, layout = "graphopt") + 
+  geom_node_point() +
+  geom_edge_link(aes(width = weight), alpha = 0.8) +
+  geom_node_text(aes(label = label), repel = TRUE) +
+  labs(edge_width = "Weight") +
+  theme_graph()
+```
+
+
+```{r, fig.width=20}
+#routes_igraph_tidy <- as_tbl_graph(routes_igraph)
+ggraph(routes_igraph, layout = 'dendrogram', circular = TRUE) + 
+    geom_node_point() + 
+    geom_edge_diagonal() + 
+    scale_edge_width(range = c(0.2, 2)) +
+    geom_node_text(aes(label = label), repel = TRUE, max.overlaps = 1000) +
+    coord_fixed() +
+    theme_graph()
+```
+
+```{r}
+write.csv(edges, './edges.csv')
+write.csv(nodes, './nodes.csv')
+```
+

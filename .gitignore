@@ -8,3 +8,6 @@
 *.tar
 R_code/exp_matrix.csv
 R_code/exp_matrix_cancer.csv
+gene_expansions/
+datasets/
+dataset/
