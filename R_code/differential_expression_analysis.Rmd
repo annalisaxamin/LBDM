@@ -1,6 +1,6 @@
 This notebook will be used to analyse the differential expression of a set of genes of interest.
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = T,fig.width = 10)
+knitr::opts_chunk$set(echo = T,fig.width = 5)
 ```
 
 
@@ -117,7 +117,14 @@ Create Q-Q plot for t-statistic:
 ```{r}
 t.good <- which(!is.na(fit2$F)) # filter out bad probes
 qqt(fit2$t[t.good], fit2$df.total[t.good], main="Moderated t statistic")
-abline(coef = c(-2,5))
+qqline(fit2$t[t.good], col = 2,lwd=2,lty=2)
+
+hist(fit2$t[t.good], col = "grey", border = "white", xlab = "Sample quantiles",
+     ylab = "Number of genes", main = "Sample quantiles probability distribution", prob = T, ylim = c(0, 0.1), xlim = c(-15, 15))
+
+lines(density(fit2$t[t.good]), col="red")
+lines(seq(-15, 15, by=.5), dnorm(seq(-15, 15, by=.5),
+      mean(fit2$t[t.good]), sd(fit2$t[t.good])), col="blue")
 ```
 
 Volcano plot (log P-value vs log fold change):

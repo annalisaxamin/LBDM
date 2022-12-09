@@ -9,5 +9,7 @@
 R_code/exp_matrix.csv
 R_code/exp_matrix_cancer.csv
 gene_expansions/
+gene_expansions_top_30/
+gene_expansions_top_20_sno/
 datasets/
 dataset/
