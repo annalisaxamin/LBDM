@@ -9,6 +9,8 @@ library(GEOquery)
 library(limma)
 library(umap)
 library(biomaRt)
+library("ggplot2") #Best plots
+library("ggrepel") #Avoid overlapping labels
 ```
 
 Load series and platform data from GEO:
@@ -54,7 +56,7 @@ annotLookup <- getBM(
   filter = "affy_hg_u133_plus_2",
   values = gene_ids,
   uniqueRows=TRUE)
-gene.set.of.interest <- c("C1orf43","CHMP2A","EMC7","GPI","PSMB2","PSMB4","RAB7A","REEP5","SNRPD3","VCP","VPS29","ACTG1","RPS18","POM121C","MRPL18","TOMM5","YTHDF1","TPT1","RPS27")
+gene.set.of.interest <- c("SNORA1","SNORA12","SNORA14B","SNORA16A","SNORA21","SNORA23","SNORA24","SNORA32","SNORA38","SNORA44","SNORA48","SNORA49","SNORA52","SNORA53","SNORA57","SNORA61","SNORA63","SNORA64","SNORA65","SNORA70","SNORA71C","SNORA73A","SNORA73B","SNORA75","SNORA78","SNORA8","SNORD10","SNORD102","SNORD104","SNORD105","SNORD105B","SNORD108","SNORD110","SNORD111B","SNORD113-3","SNORD113-4","SNORD114-1","SNORD114-13","SNORD114-14","SNORD114-19","SNORD114-20","SNORD114-21","SNORD115-23","SNORD115-32","SNORD116-13","SNORD119","SNORD12","SNORD12B","SNORD13","SNORD14A","SNORD14C","SNORD14D","SNORD15B","SNORD16","SNORD17","SNORD18A","SNORD1B","SNORD20","SNORD22","SNORD26","SNORD28","SNORD29","SNORD32A","SNORD33","SNORD34","SNORD35A","SNORD36A","SNORD36B","SNORD38A","SNORD3A","SNORD3D","SNORD41","SNORD42A","SNORD42B","SNORD44","SNORD45A","SNORD47","SNORD49B","SNORD4B","SNORD5","SNORD50A","SNORD52","SNORD53","SNORD54","SNORD55","SNORD56","SNORD57","SNORD58A","SNORD58C","SNORD59A","SNORD60","SNORD63","SNORD64","SNORD65","SNORD68","SNORD69","SNORD71","SNORD74","SNORD76","SNORD8","SNORD81","SNORD82","SNORD84","SNORD86","SNORD87","SNORD89","SNORD94","SNORD96A","SNORD97","SNORD99","TMX1","ZFAS1","CDKN2B-AS1","CWF19L1","EIF4A1","EP400","HIF1A-AS2","MEG8","NOP56","RACK1","RPL13A","RPS13","SCARNA12","SNHG12","SNHG20","SNHG5","SNHG6","SNHG7","SNHG8","AP1G1","CFDP1","CHD8","DDX39B","EEF2","EIF4A2","EIF4G2","GAS5","GNL3","HSPA8","HSPA9","IPO7","MYRIP","NAN","NCL","NFATC3","PCAT4","PPAN","PRKAA1","PRRC2A","PTCD3","RABGGTB","RNF149","RPL10","RPL12","RPL13","RPL17","RPL21","RPL23","RPL23A","RPL4","RPL7A","RPLP2","RPS11","RPS2","RPS20","RPS3","RPS8","SF3B3","SLC25A3","SNHG1","SNHG3","SNHG9","SNORD1C","SNORD35B","SNORD37","SNRPB","SNX5","TAF1D","TNPO2","TOMM20","WDR43")
 genes.in.dataset <- annotLookup[annotLookup$hgnc_symbol %in% gene.set.of.interest,]
 genes.in.dataset.no.duplicates <- unique(genes.in.dataset$affy_hg_u133_plus_2)
 gset <- gset[genes.in.dataset.no.duplicates,]
@@ -97,7 +99,7 @@ fit2 <- eBayes(fit2, 0.01)
 tT <- topTable(fit2, adjust="fdr", sort.by="B", number=250)
 
 tT <- subset(tT, select=c("ID","adj.P.Val","P.Value","F","Gene.symbol","Gene.title"))
-write.table(tT, file=stdout(), row.names=F, sep="\t")
+#write.table(tT, file=stdout(), row.names=F, sep="\t")
 ```
 
 Visualize and quality control test results. We build a histogram of P-values for all genes. The normal test assumption is that most genes are not differentially expressed:
@@ -113,6 +115,17 @@ dT <- decideTests(fit2, adjust.method="fdr", p.value=0.05)
 vennDiagram(dT, circle.col=palette())
 ```
 
+```{r}
+vennDiagram(dT, "up", circle.col=palette())
+vennDiagram(dT, "down", circle.col=palette())
+```
+
+```{r}
+vennDiagram(dT,
+            include=c("up", "down"),
+            counts.col=c("red", "blue"), circle.col=palette())
+```
+
 Create Q-Q plot for t-statistic:
 ```{r}
 t.good <- which(!is.na(fit2$F)) # filter out bad probes
@@ -120,23 +133,30 @@ qqt(fit2$t[t.good], fit2$df.total[t.good], main="Moderated t statistic")
 qqline(fit2$t[t.good], col = 2,lwd=2,lty=2)
 
 hist(fit2$t[t.good], col = "grey", border = "white", xlab = "Sample quantiles",
-     ylab = "Number of genes", main = "Sample quantiles probability distribution", prob = T, ylim = c(0, 0.1), xlim = c(-30, 15))
+     ylab = "Number of genes", main = "Sample quantiles probability distribution", prob = T, ylim = c(0, 0.1), xlim = c(-15, 15))
 
 lines(density(fit2$t[t.good]), col="red")
-lines(seq(-30, 15, by=.5), dnorm(seq(-30, 15, by=.5),
+lines(seq(-15, 15, by=.5), dnorm(seq(-15, 15, by=.5),
       mean(fit2$t[t.good]), sd(fit2$t[t.good])), col="blue")
 ```
 
-Volcano plot (log P-value vs log fold change):
 ```{r}
+library(gaston)
+qqplot.pvalues(tT2$adj.P.Val, col.abline = "red", CB = TRUE, col.CB = "gray80", 
+                       CB.level = 0.95, thinning = TRUE)
+```
+
+Volcano plot (log P-value vs log fold change):
+```{r fig.width=10}
 colnames(fit2) # list contrast names
-ct <- 1        # choose contrast of interest
+ct <- 5        # choose contrast of interest
 volcanoplot(fit2, coef=ct, main=colnames(fit2)[ct], pch=20, cex=1,
-            highlight=length(which(dT[,ct]!=0)), names=fit2$genes$ID)
+            highlight=length(which(dT[,ct]!=0)), names=annotLookup[annotLookup$affy_hg_u133_plus_2 %in% fit2$genes$ID,]$hgnc_symbol)
 ```
 
 MD plot (log fold change vs mean log expression). Used to highlight statistically significant (p-adj < 0.05) probes:
 ```{r}
+ct <- 5
 plotMD(fit2, column=ct, status=dT[,ct], legend=F, pch=20, cex=1.5, bg.cex=1)
 abline(h=0)
 ```
@@ -146,14 +166,13 @@ Box and whisker plot:
 ```{r}
 ex <- exprs(gset)
 
-dev.new(width=3+ncol(gset)/6, height=5)
 ord <- order(gs)  # order samples by group
 palette(c("#1B9E77", "#7570B3", "#E7298A", "#E6AB02", "#D95F02",
           "#66A61E", "#A6761D", "#B32424", "#B324B3", "#666666"))
 par(mar=c(7,4,2,1))
 title <- paste ("GSE45827", "/", annotation(gset), sep ="")
 boxplot(ex[,ord], boxwex=0.6, notch=T, main=title, outline=FALSE, las=2, col=gs[ord])
-legend("topleft", groups, fill=palette(), bty="n")
+legend("bottomleft", groups, fill=palette(), bty="n")
 ```
 
 Expression value distribution:
@@ -180,4 +199,3 @@ Mean-variance trend, helps to see if precision weights are needed
 ```{r}
 plotSA(fit2, main="Mean variance trend, GSE45827", cex=1)
 ```
-
